@@ -1,0 +1,133 @@
+/* Basic Styling */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+ 
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  border: 3px solid black;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+/* Columns */
+.Fotoja {
+  width: 40%;
+  top: 20%;
+  position: relative;
+  right: 1%;
+  top:5%;
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+ 
+.right-column {
+  width: 35%;
+  margin-top: 60px;
+}
+/* Left Column */
+.Fotoja img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+ 
+.Fotoja img.active {
+  opacity: 1;
+
+
+}
+/* Product Description */
+.product-description {
+  border-bottom: 2px solid purple;
+  margin-bottom: 22px;
+}
+.product-description h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: purple;
+  letter-spacing: 1px;
+}
+.product-description h1 {
+  font-weight: 300;
+  font-size: 52px;
+  color: black;
+  letter-spacing: -2px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
+
+/* Cable Configuration */
+.cable-choose {
+  margin-bottom: 20px;
+}
+ 
+.cable-choose button {
+  border: 1px solid purple;
+  border-radius: 6px;
+  padding: 13px 20px;
+  font-size: 14px;
+  color: #5E6977;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .5s;
+}
+ 
+
+.cable-choose button:focus {
+  border: 3px solid purple;
+ 
+}
+ 
+.cable-config {
+  border-bottom: 2px solid purple;
+  margin-bottom: 20px;
+}
+
+/* Product Price */
+.product-price {
+  display: flex;
+  align-items: center;
+}
+ 
+.product-price span {
+  font-size: 26px;
+  font-weight: 300;
+  color: black;
+  margin-right: 20px;
+}
+ 
+.cart-btn {
+  display: inline-block;
+  background-color:purple;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+}
+.cart-btn:hover {
+  background-color: lightblue;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939E;
+  line-height: 24px;
+}
+
