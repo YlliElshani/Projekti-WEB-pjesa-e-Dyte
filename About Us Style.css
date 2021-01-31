@@ -71,6 +71,7 @@ ul {
     padding: 130px;
     font-family: 'Lato', sans-serif;
     border: 4px solid black;
+    margin-right: 10%;
 }
 
 .inner-container h1{
@@ -152,6 +153,7 @@ ul {
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
+    margin-bottom: 10%;
 }
 
 .inner-containeRight{
@@ -161,6 +163,7 @@ ul {
     padding: 100px;
     font-family: 'Lato', sans-serif;
     border: 4px solid black;
+    margin-left: 10%;
 }
 
 .inner-container h1{
@@ -175,4 +178,56 @@ ul {
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
+}
+.container{
+  max-width: 1350px; /*Distanca ndermjet listave*/
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;  /*I liston horizontalisht*/
+}
+ul{
+  list-style: none;  /*I hek parashesat e listimit*/
+}
+.footer{
+  background-color: #5F365F; /*Colori i backg*/
+    padding: 70px 0; /*Gjatesia e footerit*/
+}
+.footer-col{
+   width: 33%;     /*Gjersia ndermjet */
+   
+}
+.footer-col h4{  /*Listat e para */
+  font-size: 25px;  
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 600;
+  position: relative;
+}
+.footer-col h4::before{  /*Vija */
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  background-color: lightblue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 80px;
+}
+.footer-col ul li:not(:last-child){ /*List Item, unorderd list / every child element except the last gets 20px margin / all the li in the ul selected*/
+  margin-bottom: 20px;
+}
+.footer-col ul li a{ /*all list items in the unorderd list */
+  font-size: 16px;
+  text-transform: capitalize;  /*MAke it With Capital Letters */
+  text-decoration: none;
+  font-weight: 350;
+  color: white;
+  
+}
+
+.footer-col ul li a{ 
+  color: white;
+  padding-left: 3px; /*Teksti shtyhet ne te majte */
 }
