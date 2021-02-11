@@ -1,0 +1,127 @@
+.BorderOut{
+	display: flex;
+	flex-wrap:wrap;
+	width: 80%;
+	margin-left: 20%;
+}
+.Loja1{
+	padding: 2%;
+	border: 2px solid black
+	flex-grow:1;
+	flex-basis: 16%;
+
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.Foto1 img{
+	max-width: 100%;
+}
+.Text1{
+	margin-top: auto;
+}
+.Loja2{
+	padding: 2%;
+	border: 2px solid black
+	flex-grow:1;
+	flex-basis: 16%;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.Foto2 img{
+	max-width: 100%;
+}
+.Text2{
+	margin-top: auto;
+}
+.Loja3{
+	padding: 2%;
+	border: 2px solid black
+	flex-grow:1;
+	flex-basis: 16%;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.Foto3 img{
+	max-width: 100%;
+}
+.Text3{
+	margin-top: auto;
+}
+.Loja4{
+	padding: 2%;
+	border: 2px solid black
+	flex-grow:1;
+	flex-basis: 16%;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.Foto4 img{
+	max-width: 100%;
+}
+.Text4{
+	margin-top: auto;
+}
+.Loja5{
+	padding: 2%;
+	border: 2px solid black
+	flex-grow:1;
+	flex-basis: 16%;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.Foto5 img{
+	max-width: 100%;
+}
+.Text5{
+	margin-top: auto;
+}
+.Loja6{
+	padding: 2%;
+	border: 2px solid black
+	flex-grow:1;
+	flex-basis: 16%;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.Foto6 img{
+	max-width: 100%;
+}
+.Text6{
+	margin-top: auto;
+}
+.Loja7{
+	padding: 2%;
+	border: 2px solid black
+	flex-grow:1;
+	flex-basis: 16%;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.Foto7 img{
+	max-width: 100%;
+}
+.Text7{
+	margin-top: auto;
+}
+.Loja8{
+	padding: 2%;
+	border: 2px solid black
+	flex-grow:1;
+	flex-basis: 16%;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.Foto8 img{
+	max-width: 100%;
+}
+.Text8{
+	margin-top: auto;
+}

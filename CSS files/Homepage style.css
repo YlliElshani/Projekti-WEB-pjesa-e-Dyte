@@ -106,6 +106,7 @@
 .Loja1{
 	border: 2px solid purple;
 	border-radius: 20px;
+	background-image: url(C:\Users\HP\Desktop\WEBProjektiReDesignMAIN\Foto\backimg.jpg);
 
   padding: 2%;
   flex-grow: 1;
@@ -117,8 +118,6 @@
 }
 .TextP1{
 	margin-top: auto;
-	font-family: 'Mukta', sans-serif;
-	color: black;
 }
 .Foto1P img{
 	max-width: 100%;
@@ -161,32 +160,52 @@
 .Foto3P img{
 	max-width: 100%;
 }
-.BorderOut1{
+.BorderOut{
 	display: flex;
 	flex-wrap:wrap;
-	width: 80%;
+	width: 70%;
 	margin-left: 20%;
-	border:3px solid aquamarine;
+	margin-top: 1%;
+	margin-bottom: 5%;
 }
 .LojaU1{
 	padding: 2%;
-	border: 2px solid black
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	justify-content: center;
 	flex-grow:1;
 	flex-basis: 16%;
 
 
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap
 }
 .Foto1 img{
 	max-width: 100%;
 }
 .Text1{
 	margin-top: auto;
+	font-family: 'Sarabun', sans-serif;
+}
+.Text1 a:link{
+	text-decoration: none;
+}
+.Text1 a:hover{
+	color: lightgray;
+}
+.Text1 a{
+	color: black;
 }
 .LojaU2{
 	padding: 2%;
-	border: 2px solid black
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	justify-content: center;
+
 	flex-grow:1;
 	flex-basis: 16%;
 
@@ -198,10 +217,25 @@
 }
 .Text2{
 	margin-top: auto;
+	font-family: 'Sarabun', sans-serif;
+}
+.Text2 a:link{
+	text-decoration: none;
+}
+.Text2 a:hover{
+	color: lightgray;
+}
+.Text2 a{
+	color: black;
 }
 .LojaU3{
 	padding: 2%;
-	border: 2px solid black
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	justify-content: center;
+
 	flex-grow:1;
 	flex-basis: 16%;
 
@@ -213,10 +247,25 @@
 }
 .Text3{
 	margin-top: auto;
+	font-family: 'Sarabun', sans-serif;
+}
+.Text3 a:link{
+	text-decoration: none;
+}
+.Text3 a:hover{
+	color: lightgray;
+}
+.Text3 a{
+	color: black;
 }
 .LojaU4{
 	padding: 2%;
-	border: 2px solid black
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	justify-content: center;
+
 	flex-grow:1;
 	flex-basis: 16%;
 
@@ -228,10 +277,25 @@
 }
 .Text4{
 	margin-top: auto;
+	font-family: 'Sarabun', sans-serif;
+}
+.Text4 a:link{
+	text-decoration: none;
+}
+.Text4 a:hover{
+	color: lightgray;
+}
+.Text4 a{
+	color: black;
 }
 .LojaU5{
 	padding: 2%;
-	border: 2px solid black
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	justify-content: center;
+
 	flex-grow:1;
 	flex-basis: 16%;
 
@@ -243,10 +307,25 @@
 }
 .Text5{
 	margin-top: auto;
+	font-family: 'Sarabun', sans-serif;
+}
+.Text5 a:link{
+	text-decoration: none;
+}
+.Text5 a:hover{
+	color: lightgray;
+}
+.Text5 a{
+	color: black;
 }
 .LojaU6{
 	padding: 2%;
-	border: 2px solid black
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	justify-content: center;
+
 	flex-grow:1;
 	flex-basis: 16%;
 
@@ -258,10 +337,24 @@
 }
 .Text6{
 	margin-top: auto;
+	font-family: 'Sarabun', sans-serif;
+}
+.Text6 a:link{
+	text-decoration: none;
+}
+.Text6 a:hover{
+	color: lightgray;
+}
+.Text6 a{
+	color: black;
 }
 .LojaU7{
 	padding: 2%;
-	border: 2px solid black
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-right: 5%;
+	justify-content: center;
+
 	flex-grow:1;
 	flex-basis: 16%;
 
@@ -273,10 +366,26 @@
 }
 .Text7{
 	margin-top: auto;
+	margin-left:auto;
+	margin-bottom: auto;
+	font-family: 'Sarabun', sans-serif;
+}
+.Text7 a:link{
+	text-decoration: none;
+}
+.Text7 a:hover{
+	color: lightgray;
+}
+.Text7 a{
+	color: black;
 }
 .LojaU8{
 	padding: 2%;
-	border: 2px solid black
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-right: 5%;
+	justify-content: center;
+
 	flex-grow:1;
 	flex-basis: 16%;
 
@@ -288,6 +397,18 @@
 }
 .Text8{
 	margin-top: auto;
+	margin-left:auto;
+	margin-bottom: auto;
+	font-family: 'Sarabun', sans-serif;
+}
+.Text8 a:link{
+	text-decoration: none;
+}
+.Text8 a:hover{
+	color: lightgray;
+}
+.Text8 a{
+	color: black;
 }
 .KategoriKutit{
 	display: flex;
@@ -296,27 +417,49 @@
 	margin-left: 10%;
 }
 .Kategoria1{
-	border:2px solid blue;
 	margin-left: 90px;
 	width: 40%;
 	padding: 10px;
+	background-color:  #702963;
+	font-family: 'Vollkorn', serif;
 }
 .Kategoria2{
-	border:2px solid blue;
 	width: 40%;
 	padding: 10px;
 	margin-left: 90px;
+	background-color: #551a8b;
+	font-family: 'Vollkorn', serif;
 }
 .Kategoria3{
-	border:2px solid olive;
 	margin-left: 90px;
 	width: 40%;
 	padding: 10px;
 	margin-left: 90px;
+	background-color: #bf00ff;
+	font-family: 'Vollkorn', serif;
 }
 .Kategoria4{
-	border:2px solid blue;
 	width: 40%;
 	padding: 10px;
 	margin-left: 90px;
+	background-color: #c71585;
+	justify-content: center;
+	font-family: 'Vollkorn', serif;
+}
+.TekstPromovues1{
+	margin-left: 13%;
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive;
+}
+.TekstPromovues2{
+	margin-left: 13%;
+	margin-top: 3%;
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive;
+}
+.TekstPromovues3{
+	margin-top: 3%;
+	margin-left:43%;
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive;
 }
