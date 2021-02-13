@@ -77,7 +77,7 @@ color: black;
 }
 
 .LogoFOTO{
-    background-image: url("Background main.jpg");
+    background-image: url("C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/Background main.jpg");
     justify-content: center;
     width: 45%;
     margin-top: 3%;
@@ -95,6 +95,7 @@ color: black;
   border: 3px solid olive;
   width: 40%;
   margin-left: 30%;
+  display: flex;
 }
 #image{
     margin-top: 20%;
@@ -114,7 +115,7 @@ color: black;
   margin-left: 0;
   margin-right: 0;
 }
-#form{
+.form{
     width: 55%;
     height: 90%;
     margin-top:2%;
@@ -122,6 +123,20 @@ color: black;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+}
+.form label{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 50%;margin-top: 10%; 
+  width: 90%;
+}
+.form a{
+  margin-left: 50%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none; 
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  text-align: center;
+  border: 2px solid black;
 }
 #h2{
     margin-left: 50%;

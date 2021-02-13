@@ -1,7 +1,7 @@
-html, body{
+/*html, body{
     margin:0;
     background-color:white;
-}
+}*/
 
 ::-webkit-scrollbar{
     background-color: purple;
@@ -13,6 +13,43 @@ body::-webkit-scrollbar-thumb{
 }
 ul {
   list-style-type: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:  #702963;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  height: 60px;
+  min-height: 10%;
+}
+.logo{
+  letter-spacing: 2px;
+  color: #fff0f5;
+  font-size: 20px;
+}
+.links{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.links li{
+  list-style:none;
+}
+.links a{
+  color:#fff0f5;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
 }
 .HeaderParent{
   background-color: gray;
