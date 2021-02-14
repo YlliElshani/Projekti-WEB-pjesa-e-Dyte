@@ -1,0 +1,410 @@
+html, body{
+    margin:0;
+    background-color:white;
+}
+
+::-webkit-scrollbar{
+    background-color: purple;
+    width: 12px;
+}
+body::-webkit-scrollbar-thumb{
+ background-color:plum;
+ 
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:  #702963;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  height: 60px;
+  min-height: 40px;
+}
+.logo{
+  letter-spacing: 2px;
+  color: #fff0f5;
+  font-size: 20px;
+}
+.links{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.links li{
+  list-style:none;
+}
+.links a{
+  color:#fff0f5;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+.LogoFOTO{
+    background-image: url("C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/Background main.jpg");
+    justify-content: center;
+    width: 45%;
+    margin-top: 3%;
+    height: 80%;
+    float: left;
+}
+.FormFill{
+  margin-top: 3%;
+  height: 79.7%;
+  border: 2px solid red;
+  width: 54.7%;
+  float: right;
+}
+
+#image{
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 18%;
+    filter: invert(100%);
+    padding: 20px;
+    z-index: 1;
+    width: 100px;
+    height: 200px;
+}
+.LoginContainer{
+  display: flex;
+}
+.FotoLeft{
+  width: 50%;
+  background-image: url("C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/Background main.jpg");
+  height: 700px;
+  align-content: center;
+  max-width: 50%;
+  min-width: 30%;
+}
+#image{
+  margin-left: 30%;
+  margin-top: 15%;
+    filter: invert(100%);
+    padding: 20px;
+    z-index: 1;
+    width: 300px;
+    height: 500px;
+}
+.FormRight{
+  width: 50%;
+  max-width: 50%;
+  min-width: 30%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.FormA{
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.FormA h2{
+  text-align: center;
+  margin-bottom: 2%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.TextBox input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.TextBox input[type=text]:focus{
+    border: 3px solid purple;
+    padding: 12px 20px;
+}
+.FormA button{
+  align-self:center;
+  width: 30%;
+    background-color: #66023c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.Card1{
+	padding:10px;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: 'Noto Sans', sans-serif;
+	letter-spacing: 2px;
+}
+.Card1Tex{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color: purple;
+}
+.Card2{
+	padding:10px;
+	margin-left:4.2%;
+	margin-right:4.2%; 
+	font-family: 'Noto Sans', sans-serif;
+	letter-spacing: 2px;
+}
+.Card2Tex{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color: purple;
+}
+.Card3{
+	padding:10px;
+	margin-left:10%;
+	margin-right:10%;
+	font-family: 'Noto Sans', sans-serif;
+	letter-spacing: 2px;
+  margin-bottom: 5%;
+}
+.Card3Tex{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	color: purple;
+}
+}
+.Card4{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.FooterText{
+	flex-grow: 1;
+	text-decoration: none;
+	padding: 10px;
+}
+.FooterTextCenter{
+	flex-grow: 2;
+	padding: 10px;
+	font-size: 20px;
+}
+.FooterTextRight{
+	flex-grow: 1;
+	padding: 10px;
+	font-size: 20px;
+	
+}
+.Card4{
+    background-image: url(placeholder1.jpg);
+    background-repeat: repeat-x;
+    width: 99.9999999999999999%;
+    height: 30%;
+}
+#slide-bar{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+}
+.FooterText{
+	text-decoration: none;
+    color: white;
+	padding: 10px;
+	width: 10%;
+	height: 10%;
+	display: inline;
+	float: left;
+}
+
+.FooterTextCenter{
+	padding: 10px;
+	font-size: 20px;	
+	width: 25%;
+	height: 10%;
+	display: inline;
+	float: left;
+	margin-left: 15%;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.FooterTextRight{
+	padding: 10px;
+	font-size: 20px; 
+	height: 40%;
+	width: 30%;
+    color: white;
+	display: inline;
+	float: right;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.Card1Abt{
+	width: 70%;
+	height: 60%;
+	margin-top: 7%;
+	float: right;
+	display: inline;
+	padding: 15px;
+	text-align: justify;
+	color: black;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+    color: purple;
+}
+
+.imgOut{
+    margin-top: 5%;
+    margin-left: 3%;
+    display: inline;
+    float: left
+}
+
+.Card1AbtHeader{
+    color: black;
+}
+.about-section{
+    background: url(mcWP1.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+.btn1{
+  width: 10%;
+  background: none;
+  border: 3px solid #7B68EE;
+  color: black;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  position: absolute;
+  left: 78%;
+   bottom: 30%;
+}
+.btn2{
+  width: 10%;
+  background: none;
+  border: 3px solid #7B68EE;
+  color: black;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  position: absolute;
+  left: 67%;
+   bottom: 30%;
+}
+
+.btn3{
+  width: 10%;
+  background: none;
+  border: 3px solid #7B68EE;
+  color: black;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  position: absolute;
+  left: 56%;
+  bottom: 30%;
+}
+.container{
+  max-width: 1350px; /*Distanca ndermjet listave*/
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;  /*I liston horizontalisht*/
+}
+ul{
+  list-style: none;  /*I hek parashesat e listimit*/
+}
+.footer{
+  background-color: #5F365F; /*Colori i backg*/
+    padding: 70px 0; /*Gjatesia e footerit*/
+}
+.footer-col{
+   width: 33%;     /*Gjersia ndermjet */
+   
+}
+.footer-col h4{  /*Listat e para */
+  font-size: 25px;  
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 600;
+  position: relative;
+}
+.footer-col h4::before{  /*Vija */
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  background-color: lightblue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 80px;
+}
+.footer-col ul li:not(:last-child){ /*List Item, unorderd list / every child element except the last gets 20px margin / 
+  all the li in the ul selected*/
+  margin-bottom: 20px;
+}
+.footer-col ul li a{ /*all list items in the unorderd list */
+  font-size: 16px;
+  text-transform: capitalize;  /*MAke it With Capital Letters */
+  text-decoration: none;
+  font-weight: 350;
+  color: white;
+  
+}
+
+.footer-col ul li a{ 
+  color: white;
+  padding-left: 3px; /*Teksti shtyhet ne te majte */
+}
