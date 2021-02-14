@@ -1,7 +1,7 @@
-/*html, body{
+html, body{
     margin:0;
     background-color:white;
-}*/
+}
 
 ::-webkit-scrollbar{
     background-color: purple;
@@ -14,44 +14,38 @@ body::-webkit-scrollbar-thumb{
 ul {
   list-style-type: none;
 }
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color:  #702963;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: white;
-  height: 60px;
-  min-height: 10%;
-}
-.logo{
-  letter-spacing: 2px;
-  color: #fff0f5;
-  font-size: 20px;
-}
-.links{
-  display: flex;
-  justify-content: space-around;
-  width: 35%;
-}
-.links li{
-  list-style:none;
-}
-.links a{
-  color:#fff0f5;
-  letter-spacing: 1px;
-  font-size: 12px;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-  padding: 10px;
-}
-
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #702963;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    height: 100px;
+    min-height: 10%;
+  }
+  .logo{
+    letter-spacing: 2px;
+    color: #fff0f5;
+    font-size: 30px;
+  }
+  .links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+  }
+  .links li{
+    list-style:none;
+  }
+  .links a{
+    color:#fff0f5;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
 .about-section{
     background: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/WP2.jpg) no-repeat left;
     background-size: 55%;
@@ -95,7 +89,7 @@ ul {
   margin: 12px 0;
   position: absolute;
   left: 78%;
-  bottom: 10%;
+  bottom: 20%;
 }
 .btn2{
   width: 10%;
@@ -108,7 +102,7 @@ ul {
   margin: 12px 0;
   position: absolute;
   left: 67%;
-  bottom: 10%;
+  bottom: 20%;
 }
 
 .btn3{
@@ -122,7 +116,7 @@ ul {
   margin: 12px 0;
   position: absolute;
   left: 56%;
-  bottom: 10%;
+  bottom: 20%;
 }
 
 .AbtRight{
@@ -212,10 +206,9 @@ ul{
   box-sizing: border-box;
   width: 80px;
 }
-.footer-col ul li:not(:last-child){ /*List Item, unorderd list */
+.footer-col ul li:not(:last-child){ /*List Item, unorderd list / every child element except the last gets 20px margin / all the li in the ul selected*/
   margin-bottom: 20px;
 }
-
 .footer-col ul li a{ /*all list items in the unorderd list */
   font-size: 16px;
   text-transform: capitalize;  /*MAke it With Capital Letters */
@@ -275,7 +268,7 @@ ul{
     background-size: 161%;
     background-color: #fdfdfd;
     padding: 100px 0;
-    height: 800px;
+    height: 950px;
     display: flex;
   }
 
@@ -287,63 +280,34 @@ ul{
       padding: 70px;
       font-family: 'Lato', sans-serif;
       border: 4px solid black;
-      height: 600px;
+      height: 850px;
   }
 
   .inner-container h1{
       margin-bottom: 30px;
       font-size: 50px;
       font-weight: 900;
+      text-align: center;
   }
 
-  .text{
-      font-size: 40px;
+  .inner-container p{
+      font-size: 30px;
       color: #545454;
-      text-align: center;
-      line-height: 10px;
+      display: block;
       margin-bottom: 40px;
       font-family: 'Lato', sans-serif;
+      text-align: center;
   }
 
   .btn1{
-    width: 10%;
-    background: none;
-    border: 3px solid #7B68EE;
-    color: black;
-    padding: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin: 12px 0;
-    position: absolute;
-    left: 78%;
-    bottom: 10%;
+    display: none;
   }
   .btn2{
-    width: 10%;
-    background: none;
-    border: 3px solid #7B68EE;
-    color: black;
-    padding: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin: 12px 0;
-    position: absolute;
-    left: 67%;
-    bottom: 10%;
+    display: none;
   }
 
   .btn3{
-    width: 10%;
-    background: none;
-    border: 3px solid #7B68EE;
-    color: black;
-    padding: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin: 12px 0;
-    position: absolute;
-    left: 56%;
-    bottom: 10%;
+    display: none;
   }
 
   .AbtRight{
@@ -352,8 +316,8 @@ ul{
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: 2px;
-    float: right;
-    width: 50%;
+    width: 90%;
+    font-size: 30px;
   }
 
   .AbtLeft{
@@ -362,39 +326,282 @@ ul{
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: 2px;
-    float: left;
-    width: 50%;
+    width: 90%;
+    font-size: 30px;
   }
   .about-sectionRight{
-      background: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/leftpic.jpg) no-repeat right;
+      background: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/leftpic.jpg) no-repeat;
+      background-size: 161%;
+      background-color: #fdfdfd;
+      padding: 100px 0;
+      height: 950px;
+      display: flex;
+  }
+
+  .inner-containeRight{
+      width: 161%;
+      margin-left: 5%;
+      margin-right: 5%;
+      background-color: #fdfdfd;
+      padding: 70px;
+      font-family: 'Lato', sans-serif;
+      border: 4px solid black;
+      height: 850px;
+  }
+
+  .inner-containeRight h1{
+      margin-bottom: 30px;
+      font-size: 50px;
+      font-weight: 900;
+      text-align: center;
+  }
+
+  .inner-containeRight p{
+      font-size: 30px;
+      color: #545454;
+      line-height: 30px;
+      margin-bottom: 40px;
+      text-align: center;
+  }
+          .container{
+      max-width: 1350px; /*Distanca ndermjet listave*/
+      margin:auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;  /*I liston horizontalisht*/
+    }
+    ul{
+      list-style: none;  /*I hek parashesat e listimit*/
+    }
+    .footer{
+      background-color: #5F365F; /*Colori i backg*/
+        padding: 70px 0; /*Gjatesia e footerit*/
+    }
+    .footer-col{
+       width: 33%;     /*Gjersia ndermjet */
+       
+    }
+    .footer-col h4{  /*Listat e para */
+      font-size: 30px;  
+      color: white;
+      text-transform: capitalize;
+      margin-bottom: 30px;
+      font-weight: 600;
+      position: relative;
+    }
+    .footer-col h4::before{  /*Vija */
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      background-color: lightblue;
+      height: 2px;
+      box-sizing: border-box;
+      width: 80px;
+    }
+    .footer-col ul li:not(:last-child){ /*List Item, unorderd list */
+      margin-bottom: 20px;
+    }s
+    .footer-col ul li a{ /*all list items in the unorderd list */
+      font-size: 80px;
+      text-transform: capitalize;  /*MAke it With Capital Letters */
+      text-decoration: none;
+      font-weight: 350;
+      color: white;
+      
+    }
+
+    .footer-col ul li a{ 
+      color: white;
+      padding-left: 3px; /*Teksti shtyhet ne te majte */
+    }
+
+} 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  ul {
+    list-style-type: none;
+  } 
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #702963;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    height: 100px;
+    min-height: 10%;
+  }
+  .logo{
+    letter-spacing: 2px;
+    color: #fff0f5;
+    font-size: 30px;
+  }
+  .links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+  }
+  .links li{
+    list-style:none;
+  }
+  .links a{
+    color:#fff0f5;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
+  .about-section{
+      background: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/WP2.jpg) no-repeat left;
       background-size: 55%;
       background-color: #fdfdfd;
       overflow: hidden;
       padding: 100px 0;
-      margin-bottom: 10%;
   }
 
-  .inner-containeRight{
+  .inner-container{
       width: 55%;
-      float: left;
+      float: right;
       background-color: #fdfdfd;
       padding: 100px;
       font-family: 'Lato', sans-serif;
       border: 4px solid black;
-      margin-left: 10%;
+      margin-right: 10%;
   }
 
-  .inner-container h1{
-      margin-bottom: 30px;
-      font-size: 30px;
-      font-weight: 900;
+  .Header1{
+      text-align: center;
+      font-size: 100px;
+      margin-bottom: 20px;
   }
 
-  .text{
-      font-size: 17px;
+  .parag{
+      font-size: 25px;
+      text-align:center;
       color: #545454;
       line-height: 30px;
-      text-align: justify;
-      margin-bottom: 40px;
+  }
+  .btn1{
+    display: none;
+  }
+  .btn2{
+    display: none;
+  }
+
+  .btn3{
+    display: none;
+  }
+
+.AbtRight{
+    color: purple;
+    padding:20px; 
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+    width: 90%;
+    font-size: 30px;
+  }
+
+  .AbtLeft{
+    color: purple;
+    padding:20px; 
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+    width: 90%;
+    font-size: 30px;
+  }
+  .FotoMid1{
+    width: 90%;
+  }
+  .FotoMid2{
+    width: 90%;
+  }
+  .about-sectionRight{
+      background: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/leftpic.jpg) no-repeat;
+      background-size: 55%;
+      background-color: #fdfdfd;
+      overflow: hidden;
+      padding: 100px 0;
+  }
+
+  .inner-containeRight{
+      width: 55%;
+      float: right;
+      background-color: #fdfdfd;
+      padding: 100px;
+      font-family: 'Lato', sans-serif;
+      border: 4px solid black;
+      margin-right: 10%;
+  }
+
+  .Header2{
+      text-align: center;
+      font-size: 100px;
+      margin-bottom: 20px;
+  }
+
+  .parag2{
+      font-size: 25px;
+      text-align:center;
+      color: #545454;
+      line-height: 30px;
+  }
+  .container{
+    max-width: 1350px; /*Distanca ndermjet listave*/
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;  /*I liston horizontalisht*/
+  }
+  ul{
+    list-style: none;  /*I hek parashesat e listimit*/
+  }
+  .footer{
+    background-color: #5F365F; /*Colori i backg*/
+      padding: 70px 0; /*Gjatesia e footerit*/
+  }
+  .footer-col{
+     width: 33%;     /*Gjersia ndermjet */
+     
+  }
+  .footer-col h4{  /*Listat e para */
+    font-size: 25px;  
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 600;
+    position: relative;
+  }
+  .footer-col h4::before{  /*Vija */
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    background-color: lightblue;
+    height: 2px;
+    box-sizing: border-box;
+    width: 80px;
+  }
+  .footer-col ul li:not(:last-child){ /*List Item, unorderd list / every child element except the last gets 20px margin / all the li in the ul selected*/
+    margin-bottom: 20px;
+  }
+  .footer-col ul li a{ /*all list items in the unorderd list */
+    font-size: 16px;
+    text-transform: capitalize;  /*MAke it With Capital Letters */
+    text-decoration: none;
+    font-weight: 350;
+    color: white;
+    
+  }
+
+  .footer-col ul li a{ 
+    color: white;
+    padding-left: 3px; /*Teksti shtyhet ne te majte */
   }
 }
