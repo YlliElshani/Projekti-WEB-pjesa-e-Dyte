@@ -51,50 +51,9 @@ ul {
   font-family: 'Roboto', sans-serif;
   padding: 10px;
 }
-.HeaderParent{
-  background-color: gray;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  max-width: 1700px;
-  min-width: 500px;
-}
-.HeaderMainTex{
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 25px;
-    margin-left: 5%;
-    float:left;
-    display: inline;
-}
-#navbar{
-  display: flex;
-  padding: 20px;
-  justify-content:flex-end;
-  margin: 0;
-}
-.linkP{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 10px 16px; /* 10 px per height 16 px per width*/
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 0;   
-}
-.lista-navbar{
-  padding-left: 10px;
-  display: flex-row;
-}
-#ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    top: 0;
-}
+
 .about-section{
-    background: url(WP2.jpg) no-repeat left;
+    background: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/WP2.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -186,7 +145,7 @@ ul {
   width: 50%;
 }
 .about-sectionRight{
-    background: url(leftpic.jpg) no-repeat right;
+    background: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/leftpic.jpg) no-repeat right;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -253,9 +212,10 @@ ul{
   box-sizing: border-box;
   width: 80px;
 }
-.footer-col ul li:not(:last-child){ /*List Item, unorderd list / every child element except the last gets 20px margin / all the li in the ul selected*/
+.footer-col ul li:not(:last-child){ /*List Item, unorderd list */
   margin-bottom: 20px;
 }
+
 .footer-col ul li a{ /*all list items in the unorderd list */
   font-size: 16px;
   text-transform: capitalize;  /*MAke it With Capital Letters */
@@ -268,4 +228,173 @@ ul{
 .footer-col ul li a{ 
   color: white;
   padding-left: 3px; /*Teksti shtyhet ne te majte */
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  body{
+    margin: 0;
+    padding: 0;
+    width: 161%;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #702963;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    height: 100px;
+    min-height: 10%;
+  }
+  .logo{
+    letter-spacing: 2px;
+    color: #fff0f5;
+    font-size: 30px;
+  }
+  .links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+  }
+  .links li{
+    list-style:none;
+  }
+  .links a{
+    color:#fff0f5;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
+  .about-section{
+    background: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/WP2.jpg) no-repeat;
+    background-size: 161%;
+    background-color: #fdfdfd;
+    padding: 100px 0;
+    height: 800px;
+    display: flex;
+  }
+
+  .inner-container{
+      width: 161%;
+      margin-left: 5%;
+      margin-right: 5%;
+      background-color: #fdfdfd;
+      padding: 70px;
+      font-family: 'Lato', sans-serif;
+      border: 4px solid black;
+      height: 600px;
+  }
+
+  .inner-container h1{
+      margin-bottom: 30px;
+      font-size: 50px;
+      font-weight: 900;
+  }
+
+  .text{
+      font-size: 40px;
+      color: #545454;
+      text-align: center;
+      line-height: 10px;
+      margin-bottom: 40px;
+      font-family: 'Lato', sans-serif;
+  }
+
+  .btn1{
+    width: 10%;
+    background: none;
+    border: 3px solid #7B68EE;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    position: absolute;
+    left: 78%;
+    bottom: 10%;
+  }
+  .btn2{
+    width: 10%;
+    background: none;
+    border: 3px solid #7B68EE;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    position: absolute;
+    left: 67%;
+    bottom: 10%;
+  }
+
+  .btn3{
+    width: 10%;
+    background: none;
+    border: 3px solid #7B68EE;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    position: absolute;
+    left: 56%;
+    bottom: 10%;
+  }
+
+  .AbtRight{
+    color: purple;
+    padding:20px; 
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+    float: right;
+    width: 50%;
+  }
+
+  .AbtLeft{
+    color: purple;
+    padding:20px; 
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+    float: left;
+    width: 50%;
+  }
+  .about-sectionRight{
+      background: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/leftpic.jpg) no-repeat right;
+      background-size: 55%;
+      background-color: #fdfdfd;
+      overflow: hidden;
+      padding: 100px 0;
+      margin-bottom: 10%;
+  }
+
+  .inner-containeRight{
+      width: 55%;
+      float: left;
+      background-color: #fdfdfd;
+      padding: 100px;
+      font-family: 'Lato', sans-serif;
+      border: 4px solid black;
+      margin-left: 10%;
+  }
+
+  .inner-container h1{
+      margin-bottom: 30px;
+      font-size: 30px;
+      font-weight: 900;
+  }
+
+  .text{
+      font-size: 17px;
+      color: #545454;
+      line-height: 30px;
+      text-align: justify;
+      margin-bottom: 40px;
+  }
 }

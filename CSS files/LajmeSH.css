@@ -1,0 +1,111 @@
+body{
+	background-color: black;
+}
+.MainC{
+	border: 4px solid purple;
+	border-radius: 15px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-image: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/pc.jpg);
+	background-repeat: no-repeat;
+}
+.UpperC{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin-right: 10%;
+	margin-left:10%;
+	margin-top: 2%;
+	}
+.Fotoja{
+	margin-right:10%;
+}
+.Under{
+	width: 80%;
+	margin-right: 10%;
+	margin-left:10%;
+	margin-bottom: 2%;
+}
+.Tex{
+	padding: 10px;
+	width: 60%;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+.Tex h1{
+	font-family: 'Poppins', sans-serif;
+}
+.flexDown{
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	height: 300px;
+	border: 3px solid #410056;
+	border-radius: 20px;
+	justify-content: space-between;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.flexDown p{
+	color: gray;
+}
+.flexDown a{
+	text-decoration: none;
+	color: gray;
+}
+.flexDown a:hover{
+	color: purple;
+}
+.MiniKutija1{
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.MiniKutija2{
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.MiniKutija3{
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.MiniKutija4{
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+}

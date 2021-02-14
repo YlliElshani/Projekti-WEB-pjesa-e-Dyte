@@ -12,68 +12,37 @@ body::-webkit-scrollbar-thumb{
  
 }
 
-
-#divi-faqes{
-    /* border: 1px solid black; */
-    height: 50px;
-    width: 100%;
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:  #702963;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  height: 60px;
+  min-height: 40px;
 }
-#emri-faqes{
-    /* border: 1px solid black; */
-    height: 49px;
-    width: 50%;
-    display: inline;
-    float: left;
-    font-size: 25px;
-    
+.logo{
+  letter-spacing: 2px;
+  color: #fff0f5;
+  font-size: 20px;
 }
-#fonti-i-emrit-faqes{
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 5%;
-    float:left;
-    display: inline;
+.links{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
 }
-#navbar{
-    /* border:1px solid black; */
-    width: 49%;
-    height: 49px;
-    float: right;
-    display: inline;
+.links li{
+  list-style:none;
 }
-.lista-navbar{
-float: left;
-}
-.lista-navbar , .linkP{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 10px 16px; /* 10 px per height 16 px per width*/
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-bottom: 40px;
-    margin-top: 0;
-    
-}
-.lista-navbar .linkP:hover:not(.active){
-background-color: white;
-color: black;
-}
-.active{
-    background-color: black;
-    color: white;
-}
-.active:hover{
-background-color: white;
-color: black;
-}
-
-#ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    top: 0;
+.links a{
+  color:#fff0f5;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
 }
 
 .LogoFOTO{
@@ -91,12 +60,7 @@ color: black;
   width: 54.7%;
   float: right;
 }
-.FormA{
-  border: 3px solid olive;
-  width: 40%;
-  margin-left: 30%;
-  display: flex;
-}
+
 #image{
     margin-top: 20%;
     margin-left: 40%;
@@ -107,93 +71,68 @@ color: black;
     width: 100px;
     height: 200px;
 }
-.UpperCard{
-  border:3px solid blue;
+.LoginContainer{
   display: flex;
-  height: 100%;
-  margin-top: 3%;
-  margin-left: 0;
-  margin-right: 0;
 }
-.form{
-    width: 55%;
-    height: 90%;
-    margin-top:2%;
-    display: inline;
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
+.FotoLeft{
+  width: 50%;
+  background-image: url("C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/Background main.jpg");
+  height: 700px;
+  align-content: center;
+  max-width: 50%;
+  min-width: 30%;
 }
-.form label{
-  font-family: 'Source Sans Pro', sans-serif;
-  margin-left: 50%;margin-top: 10%; 
-  width: 90%;
+#image{
+  margin-left: 30%;
+  margin-top: 15%;
+    filter: invert(100%);
+    padding: 20px;
+    z-index: 1;
+    width: 300px;
+    height: 500px;
 }
-.form a{
-  margin-left: 50%;
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-decoration: none; 
-  letter-spacing: 0.5px;
-  margin-top: 20px;
+.FormRight{
+  width: 50%;
+  max-width: 50%;
+  min-width: 30%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.FormA{
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.FormA h2{
   text-align: center;
-  border: 2px solid black;
+  margin-bottom: 2%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
-#h2{
-    margin-left: 50%;
-    margin-top: 10%;
-    font-family: 'Source Sans Pro', sans-serif;
-
+.TextBox input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
-
-#emailinput{
-  margin-left: 32.5%;
-  margin-top: 5%;
-  padding: 10px 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  outline: none;
+.TextBox input[type=text]:focus{
+    border: 3px solid purple;
+    padding: 12px 20px;
 }
-#passwordinput{
-  margin-left: 32.5%;
-  padding: 10px 20px;   
-  margin-top: 5%;
-  padding: 10px 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  outline: none;
-}
-/* focus spo bon*/
-#emailinput:focus{
-    border-color: purple;
-}
-#passwordinput:focus{
-    border-color:purple;
-}
-#button{
- padding: 8px 40px;
- margin-left:45% ;
- margin-top: 3%;
- background-color: white;
- border-color: plum;
- border: 1px solid plum;
-
-}
-#button:hover{
-    background-color: plum;
+.FormA button{
+  align-self:center;
+  width: 30%;
+    background-color: #66023c;
+    border: none;
     color: white;
-
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
-
-#slide-bar{
-    /* border: 1px solid red; */
-    width: 100%;
-    height: 20%;
-    }
-  #game-style-title{
-      text-align: center;
-      font-family: 'Staatliches', cursive;
-      font-size: 3.5rem;
-    }
 
 .Card1{
 	padding:10px;
@@ -258,6 +197,11 @@ color: black;
     background-repeat: repeat-x;
     width: 99.9999999999999999%;
     height: 30%;
+}
+#slide-bar{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
 }
 .FooterText{
 	text-decoration: none;
