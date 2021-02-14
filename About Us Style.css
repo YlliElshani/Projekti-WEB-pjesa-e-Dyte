@@ -16,7 +16,7 @@ ul {
 }
 .HeaderParent{
   background-color: gray;
-  padding: 20px;
+  padding: 21px;
   display: flex;
   justify-content: space-between;
   max-width: 1700px;
