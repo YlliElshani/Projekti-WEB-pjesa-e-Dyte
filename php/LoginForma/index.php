@@ -43,6 +43,9 @@ if(isset($_POST['submit'])){
         }
 
     }
+    if ($uname == "Admin"){
+        header("location:admin.php");
+    }
 
 }
 

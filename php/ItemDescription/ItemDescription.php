@@ -56,7 +56,7 @@ $conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
 $mysqli = new mysqli ('localhost','root','','databaza');
 $table = 'fotot';
 
-$result = $mysqli->query("Select * From $table");
+$result = $mysqli->query("Select * From $table where Name like 'second image' ");
 while ($data = $result->fetch_assoc()){
   echo "<h2>{$data['Name']}</h2>";
   echo "<img src='{$data['Location']}'>";
