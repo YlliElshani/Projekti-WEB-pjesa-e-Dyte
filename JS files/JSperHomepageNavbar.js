@@ -1,7 +1,7 @@
 console.dir(document);
 
 function openNav() {
-  document.getElementById("NavBarID").style.width = "250px";
+  document.getElementById("NavBarID").style.width = "75%";
 }
 
 /* Set the width of the side navigation to 0 */
