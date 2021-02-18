@@ -4,43 +4,43 @@
 	box-sizing: border-box;
 }
 .nav{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	background-color:  #702963;
-	font-family: 'Source Sans Pro', sans-serif;
-	color: white;
-	height: 60px;
-	min-height: 40%;
-}
-.logo{
-	letter-spacing: 2px;
-	color: #fff0f5;
-	font-size: 20px;
-}
-.links{
-	display: flex;
-	justify-content: space-around;
-	width: 35%;
-}
-.links li{
-	list-style:none;
-}
-.links a{
-	color:#fff0f5;
-	letter-spacing: 1px;
-	font-size: 12px;
-	text-decoration: none;
-	font-weight: bold;
-	font-family: 'Roboto', sans-serif;
-	padding: 10px;
-}
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #702963;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    height: 100px;
+  }
+  .logo{
+    letter-spacing: 2px;
+    color: #fff0f5;
+    font-size: 30px;
+  }
+  .links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    max-width: 35%;
+  }
+  .links li{
+    list-style:none;
+  }
+  .links a{
+    color:#fff0f5;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
 .KategoriBoxCont{
-	background-image: url("C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/backimg2.jpg");
+	margin-bottom: 3%;
 }
 .TexShow{
 	text-align: center;
-	color: white;
+	color: purple;
 	font-family: 'Roboto', sans-serif;
 	padding: 5px;
 	font-weight: bold;
@@ -72,6 +72,7 @@
 }
 .Text1{
 	margin-top: auto;
+	text-align: center;
 	font-family: 'Sarabun', sans-serif;
 }
 .Text1 a:link{
@@ -81,7 +82,8 @@
 	color: lightgray;
 }
 .Text1 a{
-	color: white;
+	color: black;
+	text-align: center;
 }
 .LojaU2{
 	padding: 2%;
@@ -101,6 +103,7 @@
 	max-width: 100%;
 }
 .Text2{
+	text-align: center;
 	margin-top: auto;
 	font-family: 'Sarabun', sans-serif;
 }
@@ -111,7 +114,8 @@
 	color: lightgray;
 }
 .Text2 a{
-	color: white;
+	color: black;
+	text-align: center;
 }
 .LojaU3{
 	padding: 2%;
@@ -132,6 +136,7 @@
 }
 .Text3{
 	margin-top: auto;
+	text-align: center;
 	font-family: 'Sarabun', sans-serif;
 }
 .Text3 a:link{
@@ -141,7 +146,8 @@
 	color: lightgray;
 }
 .Text3 a{
-	color: white;
+	color: black;
+	text-align: center;
 }
 .LojaU4{
 	padding: 2%;
@@ -162,6 +168,7 @@
 }
 .Text4{
 	margin-top: auto;
+	text-align: center;
 	font-family: 'Sarabun', sans-serif;
 }
 .Text4 a:link{
@@ -171,7 +178,8 @@
 	color: lightgray;
 }
 .Text4 a{
-	color: white;
+	color: black;
+	text-align: center;
 }
 .LojaU5{
 	padding: 2%;
@@ -192,6 +200,7 @@
 }
 .Text5{
 	margin-top: auto;
+	text-align: center;
 	font-family: 'Sarabun', sans-serif;
 }
 .Text5 a:link{
@@ -201,7 +210,8 @@
 	color: lightgray;
 }
 .Text5 a{
-	color: white;
+	color: black;
+	text-align: center;
 }
 .LojaU6{
 	padding: 2%;
@@ -222,6 +232,7 @@
 }
 .Text6{
 	margin-top: auto;
+	text-align: center;
 	font-family: 'Sarabun', sans-serif;
 }
 .Text6 a:link{
@@ -231,14 +242,14 @@
 	color: lightgray;
 }
 .Text6 a{
-	color: white;
+	color: black;
+	text-align: center;
 }
 .LojaU7{
 	padding: 2%;
 	border: 2px solid black;
 	border-radius: 10px;
 	margin-right: 5%;
-	margin-bottom: 2%;
 	justify-content: center;
 
 	flex-grow:1;
@@ -252,7 +263,10 @@
 }
 .Text7{
 	margin-top: auto;
+	margin-left:auto;
+	margin-bottom: auto;
 	font-family: 'Sarabun', sans-serif;
+	text-align: center;
 }
 .Text7 a:link{
 	text-decoration: none;
@@ -261,14 +275,14 @@
 	color: lightgray;
 }
 .Text7 a{
-	color: white;
+	color: black;
+	text-align: center;
 }
 .LojaU8{
 	padding: 2%;
 	border: 2px solid black;
 	border-radius: 10px;
 	margin-right: 5%;
-	margin-bottom: 2%;
 	justify-content: center;
 
 	flex-grow:1;
@@ -282,7 +296,10 @@
 }
 .Text8{
 	margin-top: auto;
+	margin-left:auto;
+	margin-bottom: auto;
 	font-family: 'Sarabun', sans-serif;
+	text-align: center;
 }
 .Text8 a:link{
 	text-decoration: none;
@@ -291,7 +308,8 @@
 	color: lightgray;
 }
 .Text8 a{
-	color: white;
+	color: black;
+	text-align: center;
 }
 .slider{
 	width: 610px;
@@ -333,3 +351,1381 @@
 	width: 100%;
 	background-color: black;
 }
+    .container{
+      max-width: 1350px; /*Distanca ndermjet listave*/
+      margin:auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;  /*I liston horizontalisht*/
+    }
+    .container ul{
+      list-style: none;  /*I hek parashesat e listimit*/
+    }
+    .footer{
+      background-color: #5F365F; /*Colori i backg*/
+        padding: 70px 0; /*Gjatesia e footerit*/
+    }
+    .footer-col{
+       width: 33%;     /*Gjersia ndermjet */
+       
+    }
+    .footer-col h4{  /*Listat e para */
+      font-size: 30px;  
+      color: white;
+      text-transform: capitalize;
+      margin-bottom: 30px;
+      font-weight: 600;
+      position: relative;
+    }
+    .footer-col h4::before{  /*Vija */
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      background-color: lightblue;
+      height: 2px;
+      box-sizing: border-box;
+      width: 80px;
+    }
+    .footer-col ul li:not(:last-child){ /*List Item, unorderd list */
+      margin-bottom: 20px;
+    }
+    .footer-col ul li a{ /*all list items in the unorderd list */
+      font-size: 40px;
+      text-transform: capitalize;  /*MAke it With Capital Letters */
+      text-decoration: none;
+      font-weight: 350;
+      color: white;
+      
+    }
+
+    .footer-col ul li a{ 
+      color: white;
+      padding-left: 3px; /*Teksti shtyhet ne te majte */
+    }
+
+} 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3){ 
+
+  	.nav{
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	    background-color:  #702963;
+	    font-family: 'Source Sans Pro', sans-serif;
+	    color: white;
+	    height: 200px;
+	    width: 107.6%;
+	  }
+	  .logo{
+	    letter-spacing: 2px;
+	    color: #fff0f5;
+	    font-size: 50px;
+	  }
+	  .links{
+	    display: flex;
+	    justify-content: space-around;
+	    width: 40%;
+	  }
+	  .links li{
+	    list-style:none;
+	  }
+	  .links a{
+	    color:#fff0f5;
+	    letter-spacing: 1px;
+	    font-size: 35px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    font-family: 'Roboto', sans-serif;
+	    padding: 15px;
+	  }
+    .KategoriBoxCont{
+	    width: 107.6%;
+	}
+	.KategoriBox{
+		display: flex;
+		flex-wrap:wrap;
+		width: 70%;
+		margin-top: 0%;
+		margin-left: 17%;
+	}
+  	.LojaU1{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap
+	}
+	.Foto1 img{
+		max-width: 100%;
+	}
+	.Text1{
+		font-family: 'Sarabun', sans-serif;
+		margin-top: 0;
+		font-size: 30px;
+		text-align: center;
+	}
+	.Text1 a:link{
+		text-decoration: none;
+	}
+	.Text1 a:hover{
+		color: lightgray;
+	}
+	.Text1 a{
+		color: black;
+	}
+	.Text1 .UnderText1{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU2{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto2 img{
+		max-width: 100%;
+	}
+	.Text2{
+		font-family: 'Sarabun', sans-serif;
+		margin-top: 0;
+		font-size: 30px;
+		text-align: center;
+	}
+	.Text2 a:link{
+		text-decoration: none;
+	}
+	.Text2 a:hover{
+		color: lightgray;
+	}
+	.Text2 a{
+		color: black;
+	}
+	.Text2 .UnderText2{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU3{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto3 img{
+		max-width: 100%;
+	}
+	.Text3{
+		font-family: 'Sarabun', sans-serif;
+		margin-top: 0;
+		font-size: 30px;
+		text-align: center;
+	}
+	.Text3 a:link{
+		text-decoration: none;
+	}
+	.Text3 a:hover{
+		color: lightgray;
+	}
+	.Text3 a{
+		color: black;
+	}
+	.Text3 .UnderText3{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU4{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto4 img{
+		max-width: 100%;
+	}
+	.Text4{
+		font-family: 'Sarabun', sans-serif;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-right: 15%;
+		margin-left: 15%;
+		text-align: center;
+		font-size: 30px;
+	}
+	.Text4 a:link{
+		text-decoration: none;
+	}
+	.Text4 a:hover{
+		color: lightgray;
+	}
+	.Text4 a{
+		color: black;
+	}
+	.Text4 .UnderText4{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU5{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto5 img{
+		max-width: 100%;
+	}
+	.Text5{
+		margin-top: 0;
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Sarabun', sans-serif;
+	}
+	.Text5 a:link{
+		text-decoration: none;
+	}
+	.Text5 a:hover{
+		color: lightgray;
+	}
+	.Text5 a{
+		color: black;
+	}
+	.Text5 .UnderText5{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU6{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto6 img{
+		max-width: 100%;
+	}
+	.Text6{
+		margin-top: 0;
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Sarabun', sans-serif;
+	}
+	.Text6 a:link{
+		text-decoration: none;
+	}
+	.Text6 a:hover{
+		color: lightgray;
+	}
+	.Text6 a{
+		color: black;
+	}
+	.Text6 .UnderText6{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU7{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto7 img{
+		max-width: 100%;
+	}
+	.Text7{
+		margin-top: 0;
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Sarabun', sans-serif;
+	}
+	.Text7 a:link{
+		text-decoration: none;
+	}
+	.Text7 a:hover{
+		color: lightgray;
+	}
+	.Text7 a{
+		color: black;
+	}
+	.Text7 .UnderText7{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU8{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto8 img{
+		max-width: 100%;
+	}
+	.Text8{
+		margin-top: 10%;
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-bottom: 0;
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Sarabun', sans-serif;
+	}
+	.Text8 a:link{
+		text-decoration: none;
+	}
+	.Text8 a:hover{
+		color: lightgray;
+	}
+	.Text8 a{
+		color: black;
+	}
+	.Text8 .UnderText8{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.slider{
+	width: 610px;
+	max-width: 100%;
+	margin: auto;
+	overflow: hidden;
+	}
+	.slideItems{
+		display: flex;
+		width: 100%;
+		height: 500px;
+	}
+	#mbasBtn{
+	  background-color: white;
+	  border: 3px solid lightgray;
+	  color: black;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 50px;
+	  margin: auto;
+	}
+	#paraBtn{
+	  background-color: white;
+	  border: 3px solid lightgray;
+	  color: black;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 50px;
+	  margin: auto;
+	}
+	.Btns{
+		display: flex;
+	}
+	.contSlide{
+	    width: 107.6%;
+		background-color: purple;
+	}
+	.container{
+      max-width: 1350px; 
+      margin:auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap; 
+    }
+    ul{
+      list-style: none;
+    }
+    .footer{
+      background-color: #5F365F; /*Colori i backg*/
+      width: 107.6%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-col{
+           /*Gjersia ndermjet */
+ 		padding: 50px;      
+    }
+    .footer-col h4{  /*Listat e para */
+      font-size: 80px;  
+      color: white;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-align: center;
+    }
+    .footer-col h4::before{  /*Vija */
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      background-color: lightblue;
+      height: 2px;
+      box-sizing: border-box;
+      width: 80px;
+    }
+    .footer-col ul li:not(:last-child){ /*List Item, unorderd list */
+      margin-bottom: 20px;
+    }
+    .footer-col{
+    	font-size: 60px;
+    	text-align: center;
+    	margin-left: 10%;
+    	margin-right: 10%;
+    	width: 80%;
+    	font-family: 'Roboto', sans-serif;
+    }
+    .footer-col ul li a{ /*all list items in the unorderd list */
+      font-size: 80px;
+      text-transform: capitalize;  /*MAke it With Capital Letters */
+      text-decoration: none;
+      font-weight: 350;
+      color: white;
+    }
+
+    .footer-col ul li a{ 
+      color: white;
+      padding-left: 3px; /*Teksti shtyhet ne te majte */
+    }
+
+  
+ }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  		.TexShow{
+		text-align: center;
+		color: purple;
+		font-family: 'Roboto', sans-serif;
+		padding: 5px;
+		font-weight: bold;
+	}
+  	  	.nav{
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	    background-color:  #702963;
+	    font-family: 'Source Sans Pro', sans-serif;
+	    color: white;
+	    height: 200px;
+	    width: 107.6%;
+	  }
+	  .logo{
+	    letter-spacing: 2px;
+	    color: #fff0f5;
+	    font-size: 50px;
+	  }
+	  .links{
+	    display: flex;
+	    justify-content: space-around;
+	    width: 40%;
+	  }
+	  .links li{
+	    list-style:none;
+	  }
+	  .links a{
+	    color:#fff0f5;
+	    letter-spacing: 1px;
+	    font-size: 35px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    font-family: 'Roboto', sans-serif;
+	    padding: 15px;
+	  }
+
+	.KategoriBoxCont{
+	    width: 107.6%;
+	}
+	.KategoriBox{
+		display: flex;
+		flex-wrap:wrap;
+		width: 70%;
+		margin-top: 0%;
+		margin-left: 17%;
+	}
+  	.LojaU1{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap
+	}
+	.Foto1 img{
+		max-width: 100%;
+	}
+	.Text1{
+		font-family: 'Sarabun', sans-serif;
+		margin-top: 0;
+		font-size: 30px;
+		text-align: center;
+	}
+	.Text1 a:link{
+		text-decoration: none;
+	}
+	.Text1 a:hover{
+		color: lightgray;
+	}
+	.Text1 a{
+		color: black;
+	}
+	.Text1 .UnderText1{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU2{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto2 img{
+		max-width: 100%;
+	}
+	.Text2{
+		font-family: 'Sarabun', sans-serif;
+		margin-top: 0;
+		font-size: 30px;
+		text-align: center;
+	}
+	.Text2 a:link{
+		text-decoration: none;
+	}
+	.Text2 a:hover{
+		color: lightgray;
+	}
+	.Text2 a{
+		color: black;
+	}
+	.Text2 .UnderText2{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU3{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto3 img{
+		max-width: 100%;
+	}
+	.Text3{
+		font-family: 'Sarabun', sans-serif;
+		margin-top: 0;
+		font-size: 30px;
+		text-align: center;
+	}
+	.Text3 a:link{
+		text-decoration: none;
+	}
+	.Text3 a:hover{
+		color: lightgray;
+	}
+	.Text3 a{
+		color: black;
+	}
+	.Text3 .UnderText3{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU4{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto4 img{
+		max-width: 100%;
+	}
+	.Text4{
+		font-family: 'Sarabun', sans-serif;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-right: 15%;
+		margin-left: 15%;
+		text-align: center;
+		font-size: 30px;
+	}
+	.Text4 a:link{
+		text-decoration: none;
+	}
+	.Text4 a:hover{
+		color: lightgray;
+	}
+	.Text4 a{
+		color: black;
+	}
+	.Text4 .UnderText4{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU5{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto5 img{
+		max-width: 100%;
+	}
+	.Text5{
+		margin-top: 0;
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Sarabun', sans-serif;
+	}
+	.Text5 a:link{
+		text-decoration: none;
+	}
+	.Text5 a:hover{
+		color: lightgray;
+	}
+	.Text5 a{
+		color: black;
+	}
+	.Text5 .UnderText5{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU6{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto6 img{
+		max-width: 100%;
+	}
+	.Text6{
+		margin-top: 0;
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Sarabun', sans-serif;
+	}
+	.Text6 a:link{
+		text-decoration: none;
+	}
+	.Text6 a:hover{
+		color: lightgray;
+	}
+	.Text6 a{
+		color: black;
+	}
+	.Text6 .UnderText6{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU7{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto7 img{
+		max-width: 100%;
+	}
+	.Text7{
+		margin-top: 0;
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Sarabun', sans-serif;
+	}
+	.Text7 a:link{
+		text-decoration: none;
+	}
+	.Text7 a:hover{
+		color: lightgray;
+	}
+	.Text7 a{
+		color: black;
+	}
+	.Text7 .UnderText7{
+		font-size: 50px;
+		color: #48494B;
+	}
+	.LojaU8{
+		padding: 2%;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin-right: 5%;
+		margin-bottom: 2%;
+		justify-content: center;
+
+		flex-grow:1;
+		flex-basis: 40%;
+		height: 700px;
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.Foto8 img{
+		max-width: 100%;
+	}
+	.Text8{
+		margin-top: 10%;
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-bottom: 0;
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Sarabun', sans-serif;
+	}
+	.Text8 a:link{
+		text-decoration: none;
+	}
+	.Text8 a:hover{
+		color: lightgray;
+	}
+	.Text8 a{
+		color: black;
+	}
+	.Text8 .UnderText8{
+		font-size: 50px;
+		color: #48494B;
+	}
+		.slider{
+	width: 610px;
+	max-width: 100%;
+	margin: auto;
+	overflow: hidden;
+	}
+	.slideItems{
+		display: flex;
+		width: 100%;
+		height: 500px;
+	}
+	#mbasBtn{
+	  background-color: white;
+	  border: 3px solid lightgray;
+	  color: black;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 50px;
+	  margin: auto;
+	}
+	#paraBtn{
+	  background-color: white;
+	  border: 3px solid lightgray;
+	  color: black;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 50px;
+	  margin: auto;
+	}
+	.Btns{
+		display: flex;
+	}
+	.contSlide{
+	    width: 107.6%;
+		background-color: purple;
+	}
+	.container{
+      max-width: 1350px; 
+      margin:auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap; 
+    }
+    ul{
+      list-style: none;
+    }
+    .footer{
+      background-color: #5F365F; /*Colori i backg*/
+      width: 107.6%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-col{
+           /*Gjersia ndermjet */
+ 		padding: 50px;      
+    }
+    .footer-col h4{  /*Listat e para */
+      font-size: 80px;  
+      color: white;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-align: center;
+    }
+    .footer-col h4::before{  /*Vija */
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      background-color: lightblue;
+      height: 2px;
+      box-sizing: border-box;
+      width: 80px;
+    }
+    .footer-col ul li:not(:last-child){ /*List Item, unorderd list */
+      margin-bottom: 20px;
+    }
+    .footer-col{
+    	font-size: 60px;
+    	text-align: center;
+    	margin-left: 10%;
+    	margin-right: 10%;
+    	width: 80%;
+    	font-family: 'Roboto', sans-serif;
+    }
+    .footer-col ul li a{ /*all list items in the unorderd list */
+      font-size: 80px;
+      text-transform: capitalize;  /*MAke it With Capital Letters */
+      text-decoration: none;
+      font-weight: 350;
+      color: white;
+    }
+
+    .footer-col ul li a{ 
+      color: white;
+      padding-left: 3px; /*Teksti shtyhet ne te majte */
+    }
+
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  	.nav{
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	    background-color:  #702963;
+	    font-family: 'Source Sans Pro', sans-serif;
+	    color: white;
+	    height: 200px;
+	    width: 128%;
+	  }
+	  .logo{
+	    letter-spacing: 2px;
+	    color: #fff0f5;
+	    font-size: 50px;
+	  }
+	  .links{
+	    display: flex;
+	    justify-content: space-around;
+	    width: 30%;
+	  }
+	  .links li{
+	    list-style:none;
+	  }
+	  .links a{
+	    color:#fff0f5;
+	    letter-spacing: 1px;
+	    font-size: 40px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    font-family: 'Roboto', sans-serif;
+	    padding: 20px;
+	  }
+
+	  	.KategoriBox{
+			display: flex;
+			flex-wrap:wrap;
+			width: 90%;
+			margin-top: 0%;
+			margin-left: 20%;
+		}
+
+		  .LojaU1{
+			padding: 2%;
+			border: 2px solid black;
+			border-radius: 10px;
+			margin-right: 5%;
+			margin-bottom: 2%;
+			justify-content: center;
+			flex-grow:1;
+			flex-basis: 40%;
+			height: 700px;
+
+			display: flex;
+			flex-wrap: wrap
+		}
+		.Foto1 img{
+			max-width: 100%;
+		}
+		.Text1{
+			font-family: 'Sarabun', sans-serif;
+			margin-top: 0;
+			font-size: 30px;
+			text-align: center;
+		}
+		.Text1 a:link{
+			text-decoration: none;
+		}
+		.Text1 a:hover{
+			color: lightgray;
+		}
+		.Text1 a{
+			color: black;
+		}
+		.LojaU2{
+			padding: 2%;
+			border: 2px solid black;
+			border-radius: 10px;
+			margin-right: 5%;
+			margin-bottom: 2%;
+			justify-content: center;
+
+			flex-grow:1;
+			flex-basis: 40%;
+			height: 700px;
+
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.Foto2 img{
+			max-width: 100%;
+		}
+		.Text2{
+			font-family: 'Sarabun', sans-serif;
+			margin-top: 0;
+			font-size: 30px;
+			text-align: center;
+		}
+		.Text2 a:link{
+			text-decoration: none;
+		}
+		.Text2 a:hover{
+			color: lightgray;
+		}
+		.Text2 a{
+			color: black;
+		}
+		.LojaU3{
+			padding: 2%;
+			border: 2px solid black;
+			border-radius: 10px;
+			margin-right: 5%;
+			margin-bottom: 2%;
+			justify-content: center;
+
+			flex-grow:1;
+			flex-basis: 40%;
+			height: 700px;
+
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.Foto3 img{
+			max-width: 100%;
+		}
+		.Text3{
+			font-family: 'Sarabun', sans-serif;
+			margin-top: 0;
+			font-size: 30px;
+			text-align: center;
+		}
+		.Text3 a:link{
+			text-decoration: none;
+		}
+		.Text3 a:hover{
+			color: lightgray;
+		}
+		.Text3 a{
+			color: black;
+		}
+		.LojaU4{
+			padding: 2%;
+			border: 2px solid black;
+			border-radius: 10px;
+			margin-right: 5%;
+			margin-bottom: 2%;
+			justify-content: center;
+
+			flex-grow:1;
+			flex-basis: 40%;
+			height: 700px;
+
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.Foto4 img{
+			max-width: 100%;
+		}
+		.Text4{
+			margin-top: 0;
+			text-align: center;
+			font-size: 30px;
+			font-family: 'Sarabun', sans-serif;
+		}
+		.Text4 a:link{
+			text-decoration: none;
+		}
+		.Text4 a:hover{
+			color: lightgray;
+		}
+		.Text4 a{
+			color: black;
+		}
+		.LojaU5{
+			padding: 2%;
+			border: 2px solid black;
+			border-radius: 10px;
+			margin-right: 5%;
+			margin-bottom: 2%;
+			justify-content: center;
+
+			flex-grow:1;
+			flex-basis: 40%;
+			height: 700px;
+
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.Foto5 img{
+			max-width: 100%;
+		}
+		.Text5{
+			margin-top: 0;
+			font-size: 40px;
+			text-align: center;
+			font-family: 'Sarabun', sans-serif;
+		}
+		.Text5 a:link{
+			text-decoration: none;
+		}
+		.Text5 a:hover{
+			color: lightgray;
+		}
+		.Text5 a{
+			color: black;
+		}
+		.LojaU6{
+			padding: 2%;
+			border: 2px solid black;
+			border-radius: 10px;
+			margin-right: 5%;
+			margin-bottom: 2%;
+			justify-content: center;
+
+			flex-grow:1;
+			flex-basis: 40%;
+			height: 700px;
+
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.Foto6 img{
+			max-width: 100%;
+		}
+		.Text6{
+			margin-top: 0;
+			font-size: 40px;
+			text-align: center;
+			font-family: 'Sarabun', sans-serif;
+		}
+		.Text6 a:link{
+			text-decoration: none;
+		}
+		.Text6 a:hover{
+			color: lightgray;
+		}
+		.Text6 a{
+			color: black;
+		}
+		.LojaU7{
+			padding: 2%;
+			border: 2px solid black;
+			border-radius: 10px;
+			margin-right: 5%;
+			justify-content: center;
+
+			flex-grow:1;
+			flex-basis: 40%;
+			height: 700px;
+
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.Foto7 img{
+			max-width: 100%;
+		}
+		.Text7{
+			margin-top: 0;
+			font-size: 40px;
+			text-align: center;
+			font-family: 'Sarabun', sans-serif;
+		}
+		.Text7 a:link{
+			text-decoration: none;
+		}
+		.Text7 a:hover{
+			color: lightgray;
+		}
+		.Text7 a{
+			color: black;
+		}
+		.LojaU8{
+			padding: 2%;
+			border: 2px solid black;
+			border-radius: 10px;
+			margin-right: 5%;
+			margin-bottom: 2%;
+			justify-content: center;
+
+			flex-grow:1;
+			flex-basis: 40%;
+			height: 700px;
+
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.Foto8 img{
+			max-width: 100%;
+		}
+		.Text8{
+			margin-top: 10%;
+			margin-left: 20%;
+			margin-right: 20%;
+			margin-bottom: 0;
+			font-size: 40px;
+			text-align: center;
+			font-family: 'Sarabun', sans-serif;
+		}
+		.Text8 a:link{
+			text-decoration: none;
+		}
+		.Text8 a:hover{
+			color: lightgray;
+		}
+		.Text8 a{
+			color: black;
+		}
+		.container{
+      max-width: 1350px; 
+      margin:auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap; 
+    }
+    ul{
+      list-style: none;
+    }
+    .footer{
+      background-color: #5F365F; /*Colori i backg*/
+      width: 128%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-col{
+           /*Gjersia ndermjet */
+       padding: 20px;
+    }
+    .footer-col h4{  /*Listat e para */
+      font-size: 80px;  
+      color: white;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-align: center;
+    }
+    .footer-col h4::before{  /*Vija */
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      background-color: lightblue;
+      height: 2px;
+      box-sizing: border-box;
+      width: 80px;
+    }
+    .footer-col ul li:not(:last-child){ /*List Item, unorderd list */
+      margin-bottom: 20px;
+    }
+    .footer-col{
+    	font-size: 60px;
+    	text-align: center;
+    	margin-left: 10%;
+    	margin-right: 10%;
+    	width: 80%;
+    	font-family: 'Roboto', sans-serif;
+    }
+    .footer-col ul li a{ /*all list items in the unorderd list */
+      font-size: 80px;
+      text-transform: capitalize;  /*MAke it With Capital Letters */
+      text-decoration: none;
+      font-weight: 350;
+      color: white;
+    }
+
+    .footer-col ul li a{ 
+      color: white;
+      padding-left: 3px; /*Teksti shtyhet ne te majte */
+    }
+    	.slider{
+	width: 610px;
+	max-width: 100%;
+	margin: auto;
+	overflow: hidden;
+	}
+	.slideItems{
+		display: flex;
+		width: 100%;
+		height: 500px;
+	}
+	#mbasBtn{
+	  background-color: white;
+	  border: 3px solid lightgray;
+	  color: black;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 50px;
+	  margin: auto;
+	}
+	#paraBtn{
+	  background-color: white;
+	  border: 3px solid lightgray;
+	  color: black;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 50px;
+	  margin: auto;
+	}
+	.Btns{
+		display: flex;
+	}
+	.contSlide{
+	    width: 128%;
+		background-color: purple;
+	}
+	.TexShow{
+		font-size: 40px;
+		margin-left: 30%;
+	}
+}
+
+
