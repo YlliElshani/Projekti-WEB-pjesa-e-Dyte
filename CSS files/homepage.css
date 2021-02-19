@@ -46,7 +46,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .LogoFOTO{
-    background-image: url("C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/Background main.jpg");
+    background-image: url("C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/Background main.jpg");
     justify-content: center;
     width: 45%;
     margin-top: 3%;
@@ -76,7 +76,7 @@ body::-webkit-scrollbar-thumb{
 }
 .FotoLeft{
   width: 50%;
-  background-image: url("C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/Background main.jpg");
+  background-image: url("C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/Background main.jpg");
   height: 700px;
   align-content: center;
   max-width: 50%;
@@ -193,7 +193,7 @@ body::-webkit-scrollbar-thumb{
 	
 }
 .Card4{
-    background-image: url(placeholder1.jpg);
+    background-image: url(C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/placeholder1.jpg);
     background-repeat: repeat-x;
     width: 99.9999999999999999%;
     height: 30%;
