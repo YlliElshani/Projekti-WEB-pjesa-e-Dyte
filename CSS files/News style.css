@@ -221,3 +221,285 @@ ul{
   color: white;
   padding-left: 3px; /*Teksti shtyhet ne te majte */
 }
+
+
+/*------------------------------------Iphone X ------------------------ */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+
+  	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+
+/*-----------------Header-----------*/
+
+
+.nav{
+	    display: flex;
+	    width: 150%;
+	    justify-content: space-around;
+	    align-items: center;
+	    background-color:  #702963;
+	    font-family: 'Source Sans Pro', sans-serif;
+	    color: white;
+	    height: 200px;
+	    margin-bottom: 10%;
+	  }
+	  .logo{
+	    letter-spacing: 2px;
+	    color: #fff0f5;
+	    font-size: 50px;
+	  }
+	  .links{
+	    display: flex;
+	    justify-content: space-around;
+	    width: 60%;
+	  }
+	  .links li{
+	    list-style:none;
+	  }
+	  .links a{
+	    color:#fff0f5;
+	    letter-spacing: 1px;
+	    font-size: 40px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    font-family: 'Roboto', sans-serif;
+	    padding: 20px;
+	  }
+
+/*-----------------Body-----------*/
+
+.flexUp{
+	margin: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 1000px;
+	width: 140%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 1%;
+	min-width: 50%;
+	background-image: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/pc.jpg);
+	/*background-color: black;*/
+	border: 2px solid #800080;
+	border-radius:10px;
+}
+
+
+
+.flexUp h2{
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 5px;
+	color: white;
+}
+.flexUp p{
+	text-align: center;
+	font-size: 60px;
+	color: lightgray;
+}
+.flexUp a{
+	text-decoration: none;
+	color: white;
+}
+.flexUp a:hover{
+	color: black;
+}
+
+.Kutija1{
+	text-align: center;
+	font-size: 80px;
+	width: 33.3%;
+	min-width: 33.3%;
+	overflow: hidden;
+	padding:10px;
+	border:3px solid white;
+	border-radius: 20px;
+}
+
+
+.Kutija2{
+	text-align: center;
+	font-size: 80px;
+	padding:10px;
+	width: 33.3%;
+	min-width: 33.3%;
+	overflow: hidden;
+	border:3px solid white;
+	border-radius: 20px;
+}
+
+.Kutija3{
+	text-align: center;
+	font-size: 80px;
+	width: 33.3%;
+	min-width: 33.3%;
+	overflow: hidden;
+	padding:10px;
+	border:3px solid white;
+	border-radius: 20px;
+}
+
+
+
+.flexDown{
+	display: flex;
+	flex-direction: row;
+	width: 140%;
+	margin-right: 2.5%;
+	margin-left: 5%;
+	margin-top: 4%;
+	margin-bottom: 10%;
+	height: 800px;
+	border: 3px solid #410056;
+	border-radius: 20px;
+	justify-content: space-between;
+}
+.flexDown p{
+	color: gray;
+
+}
+.flexDown h3{
+	margin-bottom: 10%;
+	
+}
+.flexDown a{
+	text-decoration: none;
+	color: gray;
+}
+.flexDown a:hover{
+	color: purple;
+}
+.MiniKutija1{
+	font-size: 40px;
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.MiniKutija2{
+	font-size: 40px;
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.MiniKutija3{
+	font-size: 40px;
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.MiniKutija4{
+	font-size: 40px;
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+
+/*-----------------Footer-----------*/
+
+.container{
+      max-width: 1350px; 
+      margin:auto;
+ 
+
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap; 
+    }
+    ul{
+      list-style: none;
+    }
+    .footer{
+      background-color: #5F365F; /*Colori i backg*/
+      width: 150%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-col{
+           /*Gjersia ndermjet */
+       
+    }
+    .footer-col h4{  /*Listat e para */
+      padding: 5%;
+      font-size: 60px;  
+      color: white;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-align: center;
+    }
+    .footer-col h4::before{  /*Vija */
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      background-color: lightblue;
+      height: 2px;
+      box-sizing: border-box;
+      width: 80px;
+    }
+    .footer-col ul li:not(:last-child){ /*List Item, unorderd list */
+      margin-bottom: 20px;
+    }
+    .footer-col{
+    	font-size: 40px;
+    	text-align: center;
+    	margin-left: 10%;
+    	margin-right: 10%;
+    	width: 80%;
+    	font-family: 'Roboto', sans-serif;
+    }
+    .footer-col ul li a{ /*all list items in the unorderd list */
+      font-size: 60px;
+      text-transform: capitalize;  /*MAke it With Capital Letters */
+      text-decoration: none;
+      font-weight: 350;
+      color: white;
+    }
+
+    .footer-col ul li a{ 
+      color: white;
+      padding-left: 3px; /*Teksti shtyhet ne te majte */
+    }
+}
+
+
+
+}
