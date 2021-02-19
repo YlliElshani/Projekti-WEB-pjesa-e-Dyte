@@ -171,7 +171,7 @@ body::-webkit-scrollbar-thumb{
 	text-align: center;
 	color: purple;
 }
-}
+
 .Card4{
 	display: flex;
 	flex-wrap: nowrap;
@@ -407,4 +407,488 @@ ul{
 .footer-col ul li a{ 
   color: white;
   padding-left: 3px; /*Teksti shtyhet ne te majte */
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color:  #702963;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: white;
+      height: 200px;
+      width: 107.6%;
+    }
+    .logo{
+      letter-spacing: 2px;
+      color: #fff0f5;
+      font-size: 50px;
+    }
+    .links{
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+      margin-right:5%;
+    }
+    .links li{
+      list-style:none;
+    }
+    .links a{
+      color:#fff0f5;
+      letter-spacing: 1px;
+      font-size: 35px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      padding: 15px;
+    }
+
+
+
+    .LogoFOTO{
+      display: none;
+    }
+    .FormFill{
+      margin-top: 3%;
+      height: 79.7%;
+      border: 2px solid red;
+      width: 54.7%;
+      float: right;
+    }
+
+    #image{
+        margin-top: 20%;
+        margin-left: 40%;
+        margin-right: 18%;
+        filter: invert(100%);
+        padding: 20px;
+        z-index: 1;
+        width: 100px;
+        height: 200px;
+    }
+    .LoginContainer{
+      display: flex;
+    }
+    .FotoLeft{
+      display: none;
+    }
+    #image{
+      margin-left: 30%;
+      margin-top: 15%;
+        filter: invert(100%);
+        padding: 20px;
+        z-index: 1;
+        width: 300px;
+        height: 500px;
+    }
+    .FormRight{
+      width: 50%;
+      max-width: 50%;
+      min-width: 30%;
+      margin-left: 30%;
+      height: 700px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .FormA{
+      margin:auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .FormA h2{
+      font-size: 70px;
+      text-align: center;
+      margin-bottom: 2%;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    .TextBox input[type=text]{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      font-size: 40px;
+      text-align: center;
+    }
+    .TextBox input[type=text]:focus{
+        border: 3px solid purple;
+        padding: 12px 20px;
+    }
+    .FormA button{
+      align-self:center;
+      width: 60%;
+        background-color: #66023c;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 40px;
+        margin-bottom: 5%;
+    }
+
+    #slide-bar{
+      margin-top: 20%;
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Roboto Slab', serif;
+      margin-left: 10%;
+    }
+    .Card1{
+      padding:10px;
+      margin-left:20%;
+      font-family: 'Noto Sans', sans-serif;
+      letter-spacing: 2px;
+    }
+    .Card1Tex{
+      font-family: 'Noto Sans', sans-serif;
+      text-align: center;
+      color: purple;
+    }
+    .Card2{
+      padding:10px;
+      margin-left:20%;
+      font-family: 'Noto Sans', sans-serif;
+      letter-spacing: 2px;
+    }
+    .Card2Tex{
+      font-family: 'Noto Sans', sans-serif;
+      text-align: center;
+      color: purple;
+    }
+    .Card3{
+      padding:10px;
+      margin-left:20%;
+      font-family: 'Noto Sans', sans-serif;
+      letter-spacing: 2px;
+      margin-bottom: 5%;
+    }
+    .Card3Tex{
+      font-family: 'Noto Sans', sans-serif;
+      text-align: center;
+      color: purple;
+    }
+    .Card4{
+      display: none;
+    }
+
+    .container{
+      max-width: 1350px; 
+      margin:auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap; 
+    }
+    ul{
+      list-style: none;
+    }
+    .footer{
+      background-color: #5F365F; /*Colori i backg*/
+      width: 107.6%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-col{
+           /*Gjersia ndermjet */
+    padding: 50px;      
+    }
+    .footer-col h4{  /*Listat e para */
+      font-size: 80px;  
+      color: white;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-align: center;
+    }
+    .footer-col h4::before{  /*Vija */
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      background-color: lightblue;
+      height: 2px;
+      box-sizing: border-box;
+      width: 80px;
+    }
+    .footer-col ul li:not(:last-child){ /*List Item, unorderd list */
+      margin-bottom: 20px;
+    }
+    .footer-col{
+      font-size: 60px;
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+      width: 80%;
+      font-family: 'Roboto', sans-serif;
+    }
+    .footer-col ul li a{ /*all list items in the unorderd list */
+      font-size: 80px;
+      text-transform: capitalize;  /*MAke it With Capital Letters */
+      text-decoration: none;
+      font-weight: 350;
+      color: white;
+    }
+
+    .footer-col ul li a{ 
+      color: white;
+      padding-left: 3px; /*Teksti shtyhet ne te majte */
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color:  #702963;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: white;
+      height: 200px;
+      width: 100%;
+    }
+    .logo{
+      letter-spacing: 2px;
+      color: #fff0f5;
+      font-size: 50px;
+    }
+    .links{
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+      margin-right: 5%;
+    }
+    .links li{
+      list-style:none;
+    }
+    .links a{
+      color:#fff0f5;
+      font-size: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      padding: 15px;
+    }
+
+
+
+    .LogoFOTO{
+    background-image: url("C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/Background main.jpg");
+    justify-content: center;
+    width: 45%;
+    margin-top: 3%;
+    height: 80%;
+    float: left;
+}
+.FormFill{
+  margin-top: 3%;
+  height: 79.7%;
+  border: 2px solid red;
+  width: 54.7%;
+  float: right;
+}
+
+#image{
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 18%;
+    filter: invert(100%);
+    padding: 20px;
+    z-index: 1;
+    width: 100px;
+    height: 200px;
+}
+.LoginContainer{
+  display: flex;
+}
+.FotoLeft{
+  width: 50%;
+  background-image: url("C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/Background main.jpg");
+  height: 700px;
+  align-content: center;
+  max-width: 50%;
+  min-width: 30%;
+}
+#image{
+  margin-left: 30%;
+  margin-top: 15%;
+    filter: invert(100%);
+    padding: 20px;
+    z-index: 1;
+    width: 300px;
+    height: 500px;
+}
+.FormRight{
+  width: 50%;
+  max-width: 50%;
+  min-width: 30%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.FormA{
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.FormA h2{
+  text-align: center;
+  margin-bottom: 2%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+}
+.TextBox input[type=text]{
+  width: 90%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.TextBox input[type=text]:focus{
+    border: 3px solid purple;
+    padding: 12px 20px;
+}
+.FormA button{
+  align-self:center;
+  width: 40%;
+    background-color: #66023c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+    
+    .Card1{
+  padding:10px;
+  margin-left:10%;
+  margin-right:10%;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 2px;
+}
+.Card1Tex{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  color: purple;
+  font-size: 35px;
+}
+.Card2{
+  padding:10px;
+  margin-left:4.2%;
+  margin-right:4.2%; 
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 2px;
+}
+.Card2Tex{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  color: purple;
+  font-size: 35px;
+}
+.Card3{
+  padding:10px;
+  margin-left:10%;
+  margin-right:10%;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 5%;
+}
+.Card3Tex{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  color: purple;
+  font-size: 35px;
+}
+.Card3 h3{
+  font-size: 40px;
+}
+
+.Card2 h3{
+  font-size: 40px;
+}
+
+.Card1 h3{
+  font-size: 40px;
+}
+
+
+
+
+
+    .container{
+      max-width: 1350px; 
+      margin:auto;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap; 
+    }
+    ul{
+      list-style: none;
+    }
+    .footer{
+      background-color: #5F365F; /*Colori i backg*/
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-col{
+           /*Gjersia ndermjet */
+       padding: 20px;
+    }
+    .footer-col h4{  /*Listat e para */
+      font-size: 80px;  
+      color: white;
+      text-transform: capitalize;
+      font-weight: 600;
+      text-align: center;
+    }
+    .footer-col h4::before{  /*Vija */
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      background-color: lightblue;
+      height: 2px;
+      box-sizing: border-box;
+      width: 80px;
+    }
+    .footer-col ul li:not(:last-child){ /*List Item, unorderd list */
+      margin-bottom: 20px;
+    }
+    .footer-col{
+      font-size: 60px;
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+      width: 80%;
+      font-family: 'Roboto', sans-serif;
+    }
+    .footer-col ul li a{ /*all list items in the unorderd list */
+      font-size: 80px;
+      text-transform: capitalize;  /*MAke it With Capital Letters */
+      text-decoration: none;
+      font-weight: 350;
+      color: white;
+    }
+
+    .footer-col ul li a{ 
+      color: white;
+      padding-left: 3px; /*Teksti shtyhet ne te majte */
+    }
+
 }
