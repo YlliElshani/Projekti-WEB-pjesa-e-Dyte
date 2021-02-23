@@ -218,7 +218,7 @@ ul{
 
 /*-----------------Header-----------*/
 body{
-
+margin:0;
 background-color: white;
 }
 
@@ -230,7 +230,7 @@ background-color: white;
 	    font-family: 'Source Sans Pro', sans-serif;
 	    color: white;
 	    height: 250px;
-	    width: 320%;
+      	width: 250%;
 	  }
 	  .logo{
 	    letter-spacing: 2px;
@@ -262,27 +262,22 @@ background-color: white;
 /*-----------------Body-----------*/
 
   	.MainC{
-	border: 4px solid purple;
-	border-radius: 15px;
-	width: 290%;
-	margin-left: 11%;
-	margin-right: 5%;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	background-image: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/pc.jpg);
-	background-repeat: no-repeat;
+	display: flex;
+	flex-wrap: wrap;
+    width: 235%;
+    margin-right: 2%;
 }
 .UpperC{
 	display: flex;
 	flex-wrap: wrap;
-	width: 130%;
-	margin-right: 10%;
-	margin-left:10%;
 	margin-top: 2%;
 	}
 .Fotoja{
-	margin-left: 26%;
-
+	margin-left: 3%;
+}
+.Fotoja img{
+	width: 1800px;
+	height: 800px;
 }
 .Under{
 	width: 80%;
@@ -292,10 +287,11 @@ background-color: white;
 }
 .Tex{
 	text-align: center;
-	font-size: 75px;
+	font-size: 50px;
 	padding: 20px;
-	width: 60%;
-	color: purple;
+	width: 140%;
+	color: black;
+	font-weight: 900;
 	font-family: 'Montserrat', sans-serif;
 }
 .Tex h1{
@@ -303,78 +299,123 @@ background-color: white;
 }
 .flexDown{
 	display: flex;
-	flex-direction: row;
-	width: 290%;
-	margin-right: 2.5%;
-	margin-left: 11%;
+	flex-direction: column;
+	width: 235%;
+	height: 2000px;
+	margin-right: 5%;
+	margin-left: 5%;
 	margin-top: 4%;
 	margin-bottom: 4%;
-	height: 1000px;
 	border: 3px solid #410056;
 	border-radius: 20px;
 	justify-content: space-between;
 	font-family: 'Montserrat', sans-serif;
-	
 }
 .flexDown p{
-	color: gray;
-}
-.flexDown a{
-	text-decoration: none;
-	color: gray;
+	color: black;
 }
 .flexDown a:hover{
-	color: purple;
+	color: blue;
 }
 .MiniKutija1{
 	color: black;
-	width: 25%;
-	font-size: 55px;
+	width: 95%;
+	height: 900px;
+	font-size: 40px;
 	text-align: center;
 	padding: 10px;
 	border: 3px solid purple;
 	border-radius: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-left: 10px;
-	overflow: hidden;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.MiniKutija1 a{
+	color: black;
+	font-size: 70px;
+	text-align: center;
+	margin-left: 4%;
+}
+.MiniKutija a:hover{
+	color: purple;
 }
 .MiniKutija2{
-	font-size: 55px;
 	color: black;
-	width: 25%;
+	width: 95%;
+	height: 900px;
+	font-size: 40px;
 	text-align: center;
 	padding: 10px;
 	border: 3px solid purple;
 	border-radius: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	overflow: hidden;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.MiniKutija2 a{
+	color: black;
+	font-size: 70px;
+	text-align: center;
+	margin-left: 4%;
+}
+.MiniKutija2 a:hover{
+	color: purple;
 }
 .MiniKutija3{
-	font-size: 55px;
 	color: black;
-	width: 25%;
+	width: 95%;
+	height: 900px;
+	font-size: 40px;
 	text-align: center;
 	padding: 10px;
 	border: 3px solid purple;
 	border-radius: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	overflow: hidden;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.MiniKutija3 a{
+	color: black;
+	font-size: 70px;
+	text-align: center;
+	margin-left: 4%;
+}
+.MiniKutija3 a:hover{
+	color: purple;
 }
 .MiniKutija4{
-	font-size: 55px;
 	color: black;
-	width: 25%;
+	width: 95%;
+	height: 900px;
+	font-size: 40px;
 	text-align: center;
 	padding: 10px;
 	border: 3px solid purple;
 	border-radius: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-right: 10px;
-	overflow: hidden;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.MiniKutija4 a{
+	color: black;
+	font-size: 70px;
+	text-align: center;
+	margin-left: 4%;
+}
+.MiniKutija4 a:hover{
+	color: purple;
 }
 
 
@@ -393,7 +434,7 @@ background-color: white;
     }
     .footer{
       background-color: #5F365F; /*Colori i backg*/
-      width: 320%;
+      width: 250%;
       display: flex;
       flex-wrap: wrap;
     }
@@ -497,27 +538,24 @@ body{
 /*-----------------Body-----------*/
 
   	.MainC{
-	border: 4px solid purple;
-	border-radius: 15px;
+	display: flex;
+	flex-wrap: wrap;
 	width: 140%;
-	margin-left: 8%;
-	margin-right: 5%;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	background-image: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/pc.jpg);
-	background-repeat: no-repeat;
 }
 .UpperC{
 	display: flex;
 	flex-wrap: wrap;
-	width: 130%;
-	margin-right: 10%;
-	margin-left:10%;
 	margin-top: 2%;
 	}
 .Fotoja{
-	margin-left: 22%;
-
+	margin-left: 12%;
+	width: 500px;
+	height: 300px;
+	margin-bottom: 20%;
+}
+.Fotoja img{
+	width: 800px;
+	height: 500px;
 }
 .Under{
 	width: 80%;
@@ -529,8 +567,9 @@ body{
 	text-align: center;
 	font-size: 35px;
 	padding: 20px;
-	width: 60%;
-	color: purple;
+	width: 140%;
+	color: black;
+	font-weight: 900;
 	font-family: 'Montserrat', sans-serif;
 }
 .Tex h1{
@@ -538,32 +577,28 @@ body{
 }
 .flexDown{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	width: 140%;
-	margin-right: 2.5%;
-	margin-left: 8%;
+	height: 2000px;
+	margin-right: 5%;
+	margin-left: 5%;
 	margin-top: 4%;
 	margin-bottom: 4%;
-	height: 700px;
 	border: 3px solid #410056;
 	border-radius: 20px;
 	justify-content: space-between;
 	font-family: 'Montserrat', sans-serif;
-	
 }
 .flexDown p{
-	color: gray;
-}
-.flexDown a{
-	text-decoration: none;
-	color: gray;
+	color: black;
 }
 .flexDown a:hover{
-	color: purple;
+	color: blue;
 }
 .MiniKutija1{
 	color: black;
-	width: 25%;
+	width: 95%;
+	height: 900px;
 	font-size: 30px;
 	text-align: center;
 	padding: 10px;
@@ -571,45 +606,94 @@ body{
 	border-radius: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-left: 10px;
-	overflow: hidden;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.MiniKutija1 a{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 4%;
+}
+.MiniKutija a:hover{
+	color: purple;
 }
 .MiniKutija2{
-	font-size: 30px;
 	color: black;
-	width: 25%;
+	width: 95%;
+	height: 900px;
+	font-size: 30px;
 	text-align: center;
 	padding: 10px;
 	border: 3px solid purple;
 	border-radius: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	overflow: hidden;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.MiniKutija2 a{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 4%;
+}
+.MiniKutija2 a:hover{
+	color: purple;
 }
 .MiniKutija3{
-	font-size: 30px;
 	color: black;
-	width: 25%;
+	width: 95%;
+	height: 900px;
+	font-size: 30px;
 	text-align: center;
 	padding: 10px;
 	border: 3px solid purple;
 	border-radius: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	overflow: hidden;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.MiniKutija3 a{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 4%;
+}
+.MiniKutija3 a:hover{
+	color: purple;
 }
 .MiniKutija4{
-	font-size: 30px;
 	color: black;
-	width: 25%;
+	width: 95%;
+	height: 900px;
+	font-size: 30px;
 	text-align: center;
 	padding: 10px;
 	border: 3px solid purple;
 	border-radius: 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	margin-right: 10px;
-	overflow: hidden;
+	margin-left: 1.5%;
+	margin-right: 2.5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.MiniKutija4 a{
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 4%;
+}
+.MiniKutija4 a:hover{
+	color: purple;
 }
 
 

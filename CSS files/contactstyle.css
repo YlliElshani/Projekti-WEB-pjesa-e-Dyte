@@ -398,32 +398,34 @@ ul{
         margin-bottom: 2%;
         margin-top: 3%;
     }
+
         .container{
-      max-width: 1350px; /*Distanca ndermjet listave*/
+      max-width: 1350px; 
       margin:auto;
     }
     .row{
       display: flex;
-      flex-wrap: wrap;  /*I liston horizontalisht*/
+      flex-wrap: wrap; 
     }
     ul{
-      list-style: none;  /*I hek parashesat e listimit*/
+      list-style: none;
     }
     .footer{
       background-color: #5F365F; /*Colori i backg*/
-        padding: 70px 0; /*Gjatesia e footerit*/
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
     }
     .footer-col{
-       width: 33%;     /*Gjersia ndermjet */
-       
+           /*Gjersia ndermjet */
+       padding: 20px;
     }
     .footer-col h4{  /*Listat e para */
-      font-size: 50px;  
+      font-size: 80px;  
       color: white;
       text-transform: capitalize;
-      margin-bottom: 30px;
       font-weight: 600;
-      position: relative;
+      text-align: center;
     }
     .footer-col h4::before{  /*Vija */
       content: '';
@@ -436,20 +438,23 @@ ul{
     }
     .footer-col ul li:not(:last-child){ /*List Item, unorderd list */
       margin-bottom: 20px;
-    }s
+    }
+    .footer-col{
+      font-size: 60px;
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+      width: 80%;
+      font-family: 'Roboto', sans-serif;
+    }
     .footer-col ul li a{ /*all list items in the unorderd list */
       font-size: 80px;
       text-transform: capitalize;  /*MAke it With Capital Letters */
       text-decoration: none;
       font-weight: 350;
       color: white;
-      
     }
 
-    .footer-col ul li a{ 
-      color: white;
-      padding-left: 3px; /*Teksti shtyhet ne te majte */
-    }
 }
 @media only screen 
   and (min-device-width: 375px) 
@@ -607,32 +612,34 @@ ul{
         margin-bottom: 2%;
         margin-top: 3%;
     }
+
         .container{
-      max-width: 1350px; /*Distanca ndermjet listave*/
+      max-width: 1350px; 
       margin:auto;
     }
     .row{
       display: flex;
-      flex-wrap: wrap;  /*I liston horizontalisht*/
+      flex-wrap: wrap; 
     }
     ul{
-      list-style: none;  /*I hek parashesat e listimit*/
+      list-style: none;
     }
     .footer{
       background-color: #5F365F; /*Colori i backg*/
-        padding: 70px 0; /*Gjatesia e footerit*/
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
     }
     .footer-col{
-       width: 33%;     /*Gjersia ndermjet */
-       
+           /*Gjersia ndermjet */
+       padding: 20px;
     }
     .footer-col h4{  /*Listat e para */
-      font-size: 50px;  
+      font-size: 80px;  
       color: white;
       text-transform: capitalize;
-      margin-bottom: 30px;
       font-weight: 600;
-      position: relative;
+      text-align: center;
     }
     .footer-col h4::before{  /*Vija */
       content: '';
@@ -645,19 +652,21 @@ ul{
     }
     .footer-col ul li:not(:last-child){ /*List Item, unorderd list */
       margin-bottom: 20px;
-    }s
+    }
+    .footer-col{
+      font-size: 60px;
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+      width: 80%;
+      font-family: 'Roboto', sans-serif;
+    }
     .footer-col ul li a{ /*all list items in the unorderd list */
       font-size: 80px;
       text-transform: capitalize;  /*MAke it With Capital Letters */
       text-decoration: none;
       font-weight: 350;
       color: white;
-      
     }
 
-    .footer-col ul li a{ 
-      color: white;
-      padding-left: 3px; /*Teksti shtyhet ne te majte */
-    }
-  }
 }
