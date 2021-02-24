@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+.nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color:  #702963;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	height: 60px;
+	min-height: 40%;
+}
+.logo{
+	letter-spacing: 2px;
+	color: #fff0f5;
+	font-size: 20px;
+}
+.links{
+	display: flex;
+	justify-content: space-around;
+	width: 35%;
+}
+.links li{
+	list-style:none;
+}
+.links a{
+	color:#fff0f5;
+	letter-spacing: 1px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	padding: 10px;
+}
+.flexUp{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 410px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 1%;
+	min-width: 50%;
+	background-image: url(C:/Users/HP/Desktop/WEBProjektiReDesignMAIN/Foto/pc.jpg);
+	/*background-color: black;*/
+	border: 2px solid #800080;
+	border-radius:10px;
+}
+.flexUp h2{
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 5px;
+	color: white;
+}
+.flexUp p{
+	text-align: center;
+	font-size: 20px;
+	color: lightgray;
+}
+.flexUp a{
+	text-decoration: none;
+	color: white;
+}
+.flexUp a:hover{
+	color: black;
+}
+.Kutija1{
+	width: 33.3%;
+	min-width: 33.3%;
+	overflow: hidden;
+	padding:10px;
+	border:3px solid white;
+	border-radius: 20px;
+}
+
+.Kutija2{
+	padding:10px;
+	width: 33.3%;
+	min-width: 33.3%;
+	overflow: hidden;
+	border:3px solid white;
+	border-radius: 20px;
+}
+
+.Kutija3{
+	width: 33.3%;
+	min-width: 33.3%;
+	overflow: hidden;
+	padding:10px;
+	border:3px solid white;
+	border-radius: 20px;
+}
+
+.flexDown{
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	height: 300px;
+	border: 3px solid #410056;
+	border-radius: 20px;
+	justify-content: space-between;
+}
+.flexDown p{
+	color: gray;
+}
+.flexDown a{
+	text-decoration: none;
+	color: gray;
+}
+.flexDown a:hover{
+	color: purple;
+}
+.MiniKutija1{
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.MiniKutija2{
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.MiniKutija3{
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.MiniKutija4{
+	color: lightgray;
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid purple;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.container{
+  max-width: 1350px; /*Distanca ndermjet listave*/
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;  /*I liston horizontalisht*/
+}
+ul{
+  list-style: none;  /*I hek parashesat e listimit*/
+}
+.footer{
+  background-color: #5F365F; /*Colori i backg*/
+    padding: 70px 0; /*Gjatesia e footerit*/
+}
+.footer-col{
+   width: 33%;     /*Gjersia ndermjet */
+   
+}
+.footer-col h4{  /*Listat e para */
+  font-size: 25px;  
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 600;
+  position: relative;
+}
+.footer-col h4::before{  /*Vija */
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  background-color: lightblue;
+  height: 2px;
+  box-sizing: border-box;
+  width: 80px;
+}
+.footer-col ul li:not(:last-child){ /*List Item, unorderd list / every child element except the last gets 20px margin / 
+  all the li in the ul selected*/
+  margin-bottom: 20px;
+}
+.footer-col ul li a{ /*all list items in the unorderd list */
+  font-size: 16px;
+  text-transform: capitalize;  /*MAke it With Capital Letters */
+  text-decoration: none;
+  font-weight: 350;
+  color: white;
+  
+}
+
+.footer-col ul li a{ 
+  color: white;
+  padding-left: 3px; /*Teksti shtyhet ne te majte */
+}
