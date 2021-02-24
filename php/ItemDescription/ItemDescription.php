@@ -19,7 +19,7 @@ session_destroy();
 <html>
 <head>
   <title>Item Description</title>
-  <link rel="stylesheet" type="text/css" href="About Us Style.css">
+  <link rel="stylesheet" type="text/css" href="Style.css">
 </head>
 <body>
   <div class="HeaderMain">
@@ -56,16 +56,18 @@ $conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
 $mysqli = new mysqli ('localhost','root','','databaza');
 $table = 'fotot';
 
-$result = $mysqli->query("Select * From $table where Name like 'second image' ");
+$result = $mysqli->query("Select * From $table where Name like '6 image' ");
 while ($data = $result->fetch_assoc()){
   echo "<h2>{$data['Name']}</h2>";
   echo "<img src='{$data['Location']}'>";
+  
 
 }
 
 
 ?>
-    <img data-image="red" class="active" src="" >
+  
+    <img data-image="red" class="active" src="fotoja1.jpeg" >
   </div>
  
  <link rel="stylesheet" type="text/css" href="Item Description Style.css">
