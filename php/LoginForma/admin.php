@@ -22,6 +22,7 @@ $table1 = 'kerkesat';
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
 	<title>Welcome Admin</title>
 </head>
 <body>
@@ -33,22 +34,22 @@ $table1 = 'kerkesat';
 	<button onclick="validate();">
 		
 	</button>
-
 	<h1>Keta jane userat me Passwordat e Tyre</h1>
-	<?php 
+<div class="UserInfo">
+		<?php 
 
 $result = $mysqli->query("Select * From $table");
 while ($data = $result->fetch_assoc()){
   echo "<h2>{$data['Username']}</h2>";
   echo "<h2>{$data['Password']}</h2>";
-  echo "<br></br>";
 
 }
 ?>
-
+</div>
 <h1>Keto Jane Kerkesat e Userave</h1>
-
-<?php
+	
+<div class="KerkesatEUsers">
+	<?php
 $result = $mysqli->query("Select * From $table1");
 while ($data = $result->fetch_assoc()){
   echo "<h2>{$data['Emri']}</h2>";
@@ -61,6 +62,10 @@ while ($data = $result->fetch_assoc()){
 
 
 	?>
+</div>
+
+
+
 
 </form>
 </body>

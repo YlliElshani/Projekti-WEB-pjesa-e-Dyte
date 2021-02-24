@@ -1,4 +1,8 @@
+<?php 
 
+start_session();
+
+?>
 <?php
 include 'includes/databaza.inc.php';
 ?>
