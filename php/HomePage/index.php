@@ -1,19 +1,5 @@
-<?php
-
-
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
-$dbName = "databaza";
-
-$conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
-$mysqli = new mysqli ('localhost','root','','databaza');
-$table = 'fotot';
-$table1 = 'emrat';
-$table2 = 'cmimet';
-
-
-
+<?php 
+session_start();
 ?>
 
 
@@ -21,8 +7,8 @@ $table2 = 'cmimet';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HomePage Main</title>
-    <link rel="stylesheet" type="text/css" href="Homepage style.css">
+	<title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,7 +23,9 @@ $table2 = 'cmimet';
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script src="C:\xampp\htdocs\WEBProjektiReDesignMAIN\JS files\JSperHomepageNavbar.js"></script>
+  <link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\WEBProjektiReDesignMAIN\CSS files\About us style.css">
+  <link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\WEBProjektiReDesignMAIN\CSS files\Homepage style.css">
+  <link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\WEBProjektiReDesignMAIN\CSS files\Home css.css">
 </head>
 <body>
 	<div class="nav">
@@ -56,582 +44,101 @@ $table2 = 'cmimet';
                 </li>
             </ul>
     </div>
-    <div class="curved-div">
-      <h1>Eksploroni Boten e Video-lojrave me ne</h1>
-      <svg viewBox="0 0 1440 319">
-        <path fill="#fff" fill-opacity="1" d="M0,32L48,80C96,128,192,224,288,224C384,224,480,128,576,90.7C672,53,768,75,864,96C960,117,1056,139,1152,149.3C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-      </svg>
-    </div>  
-        <div class="NavBar" id="NavBarID">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">Rreth nesh</a>
-            <a href="#">Te reja</a>
-            <a href="#">Kerko librarin</a>
-            <a href="#">Contact</a>
+
+
+  	<div id="sliderAuto">
+        <script>
+
+        var index=0 ;
+        var kohaPerSlide= 3000;
+        var fotot = [];
+
+        fotot[0]= 'C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/actBg.jpg'
+        fotot[1]='C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/act1.jpg'
+        fotot[2]='C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/act2.jpg'
+        fotot[3]='C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/act5.jpg'
+
+        function slidePics(){
+          document.sliderpics.src = fotot[index];
+          if(index<fotot.length - 1){
+
+            index++;
+
+          }
+          else{
+
+            index=0;
+
+          }
+
+          setTimeout("slidePics()",kohaPerSlide);
+        }
+        window.onload = slidePics;
+
+      </script>
+    <img name="sliderpics" id="imgCSS" style="filter: invert(0);">
+  </div>
+
+
+      <div class="LinkHere"> 
+        <a href="../Produktet/index.php">Shikoni librarin tone!</a>
+      </div>
+
+      <div class="TekstBox">
+        <h2>
+          Faqja jon mundeson shitjen e video-lojrave ne menyre virtuale
+        </h2>
+        <p>
+          Ne faqen ton mund te bleni video-lojerat me te reja ne market permes internetit, menyra se si funksionon eshte permes
+          qelsave virtual te lojrave te cilat mund ti perdorni ne Steam per te marr lojen ne librarin tuaj, arsyeja se perse te
+          bleni lojera tek ne, ne vend se ti bleni dirket ne Marketin e Steam eshte se ne i shesim me nje discount te ndjeshem ne
+          krahasim me &ccedil;mimin standart te vendosur nga Steam dhe nga kompanit e lojrave!
+        </p>
+      </div>
+
+      <div class="BoxHodlr">
+        <div class="LeftBox">
+            <img src="C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/hd.jpg" width="400px" height="250px">
+            <h3>
+              Tek ne mund te gjeni
+            </h3>
+            <p>
+              Curabitur magna lorem, tempus ac ultrices ac, dapibus eu est. Integer iaculis rutrum nunc, id sollicitudin quam facilisis vel. Morbi lacinia enim justo, maximus volutpat mi maximus nec. Vestibulum fringilla lectus ac risus consectetur, ac vehicula ante luctus. Aenean convallis, diam vel semper consectetur, mauris nulla tempus ligula, a iaculis ligula purus sed mauris. Integer dui orci, facilisis nec risus a, luctus eleifend orci. Maecenas viverra pharetra enim vitae accumsan. Integer aliquet porta dapibus. Donec tincidunt augue quis eros commodo, euismod dictum diam finibus. Suspendisse condimentum aliquet est a pellentesque. Proin iaculis sapien elementum dolor malesuada blandit.
+            </p>
         </div>
-        <div class="SideNavOpen">
-            <button class="ButonSideNav">
-                <span onclick="openNav()"><h1>
-                    >
-                </h1></span>                                       
-            </button>
+
+        <div class="RightBox">
+          <h3>
+            Sherbimet tona jane te sigurta dhe te kualitative
+          </h3>
+            <p>
+              Donec egestas quis lorem eu accumsan. Proin bibendum elit id nulla hendrerit, sed dictum augue volutpat. Sed tempus dignissim erat. Donec porta sem lectus, eget tempus nibh porttitor et. Morbi cursus elit ut enim tempor tempus. Cras non urna dui. Nam suscipit varius euismod. Praesent eget imperdiet mi. Proin commodo pellentesque eleifend. Donec ut dolor scelerisque, tincidunt mauris eu, tincidunt urna. Cras dignissim lectus eget elit scelerisque, et facilisis massa dignissim.
+            </p>
+          <img src="C:/xampp/htdocs/WEBProjektiReDesignMAIN/Foto/8bitGif.gif" width="400px" height="250px">
         </div>
-        <div class="TekstPromovues1">
-            Lojera me &ccedil;mime speciale
-        </div>
-            <div class="KutijaFlex1">
-                <div class="Loja1">
-                    <div class="Foto1P">
-                        <?php
-                   $result = $mysqli->query("Select * From $table where Name like '8 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
+      </div>
 
-                    }             
-                    ?>                 
-                    </div>
-                    <div class="TextP1">
-                        <a href="#">
 
-                            <?php
-                   $result = $mysqli->query("Select * From $table1 where ID like '1' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Emri']}</h9>";
-                    
+      <div class="Show">
+          <h2>
+            Ne faqen tone ju mundeni
+          </h2>
+         <a href="#">Te shikoni lajmet me te reja ne boten e video-lojrave</a>
+         <br>
+         <br>
+         <br>
+         <a href="#">Te keni nje menyr te sigurt te blerjes se lojrave</a> 
+         <br>
+         <br>
+         <br>
+         <a href="#">Te shikoni produktet tona te promovuara</a>
+         <br>
+         <br>
+         <br>
+         <a href="#">Te krijoni nje llogari dhe te merrni rekomandime ne email</a>
+      </div>
 
-                    }             
-                    ?>
-                        
-                    </a>   
-                        <h4>
-                           <?php
-                   $result = $mysqli->query("Select * From $table2 where ID like '1' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Cmimi']}</h9>";
-                    
-
-                    }             
-                    ?>
-                        </h4>
-                            <p>
-                            Rating 4.2/5
-                        </p>
-                    </div>
-                </div>
-                <div class="Loja2">
-                    <div class="Foto2P">
-                        <?php
-                   $result = $mysqli->query("Select * From $table where Name like '8 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                  
-                    </div>
-                    <div class="TextP2">
-                     <p>
-                        <a><?php
-                   $result = $mysqli->query("Select * From $table1 where ID like '2' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Emri']}</h9>";
-                    
-
-                    }             
-                    ?></a>   
-                            </p>
-                        <h4 style="font-family: 'Mukta', sans-serif;">
-                               <?php
-                   $result = $mysqli->query("Select * From $table2 where ID like '2' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Cmimi']}</h9>";
-                    
-
-                    }             
-                    ?>
-                        </h4>
-                        <p>
-                            Rating 4/5
-                        </p>
-                    </div>
-                </div>
-                <div class="Loja3">
-                    <div class="Foto3P">
-                        <?php
-                   $result = $mysqli->query("Select * From $table where Name like '8 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?> 
-                    </div>
-                    <div class="TextP3">
-                     <p>
-                        <a href="#"><?php
-                   $result = $mysqli->query("Select * From $table1 where ID like '3' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Emri']}</h9>";
-                    
-
-                    }             
-                    ?></a>   
-                            </p>
-                        <h4 style="font-family: 'Mukta', sans-serif;">
-                               <?php
-                   $result = $mysqli->query("Select * From $table2 where ID like '3' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Cmimi']}</h9>";
-                    
-
-                    }             
-                    ?>
-                        </h4>
-                         <p>
-                            Rating 5/5
-                        </p>
-                    </div>
-                </div>
-            </div>
-        <div class="TekstPromovues2">
-            Lojera te promovuara!
-        </div>
-    <div class="BorderOut">
-        <div class="LojaU1">
-            <div class="Foto1">
-               <?php
-                   $result = $mysqli->query("Select * From $table where Name like '6 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>               
-            </div>
-            <div class="Text1">
-                <h1>
-                    <a href="#"><?php
-                   $result = $mysqli->query("Select * From $table1 where ID like '4' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Emri']}</h9>";
-                    
-
-                    }             
-                    ?></a>
-                </h1>
-                <p>
-                      <?php
-                   $result = $mysqli->query("Select * From $table2 where ID like '4' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Cmimi']}</h9>";
-                    
-
-                    }             
-                    ?>
-                </p>
-            </div>
-        </div>
-        <div class="LojaU2">
-            <div class="Foto2">
-                <?php
-                   $result = $mysqli->query("Select * From $table where Name like '6 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>               
-            </div>
-            <div class="Text2">
-                <h1>
-                    <a href="#"><?php
-                   $result = $mysqli->query("Select * From $table1 where ID like '5' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Emri']}</h9>";
-                    
-
-                    }             
-                    ?></a>
-                </h1>
-                <p>
-                      <?php
-                   $result = $mysqli->query("Select * From $table2 where ID like '5' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Cmimi']}</h9>";
-                    
-
-                    }             
-                    ?>
-                </p>
-            </div>
-        </div>
-        <div class="LojaU3">
-            <div class="Foto3">
-                <?php
-                   $result = $mysqli->query("Select * From $table where Name like '6 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                
-            </div>
-            <div class="Text3">
-                <h1>
-                    <a href=""><?php
-                   $result = $mysqli->query("Select * From $table1 where ID like '6' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Emri']}</h9>";
-                    
-
-                    }             
-                    ?></a>
-                </h1>
-                <p>
-                       <?php
-                   $result = $mysqli->query("Select * From $table2 where ID like '6' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Cmimi']}</h9>";
-                    
-
-                    }             
-                    ?>
-                </p>
-            </div>
-        </div>
-        <div class="LojaU4">
-            <div class="Foto4">
-                <?php
-                   $result = $mysqli->query("Select * From $table where Name like '8 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                
-            </div>
-            <div class="Text4">
-                <h1>
-                    <a href="#"><?php
-                   $result = $mysqli->query("Select * From $table1 where ID like '7' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Emri']}</h9>";
-                    
-
-                    }             
-                    ?></a>
-                </h1>
-                <p>
-                       <?php
-                   $result = $mysqli->query("Select * From $table2 where ID like '7' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Cmimi']}</h9>";
-                    
-
-                    }             
-                    ?>
-                </p>
-            </div>
-        </div>
-        <div class="LojaU5">
-            <div class="Foto5">
-                <?php
-                   $result = $mysqli->query("Select * From $table where Name like '8 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                
-            </div>
-            <div class="Text5">
-                <h1>
-                    <a href=""><?php
-                   $result = $mysqli->query("Select * From $table1 where ID like '1' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Emri']}</h9>";
-                    
-
-                    }             
-                    ?></a>
-                </h1>
-                <p>
-                      <?php
-                   $result = $mysqli->query("Select * From $table2 where ID like '8' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Cmimi']}</h9>";
-                    
-
-                    }             
-                    ?>
-                </p>
-            </div>
-        </div>
-        <div class="LojaU6">
-            <div class="Foto6">
-                <?php
-                   $result = $mysqli->query("Select * From $table where Name like '8 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>               
-            </div>
-            <div class="Text6">
-                <h1>
-                    <a href="#">NBA 2K21</a>
-                </h1>
-                <p>
-                       <?php
-                   $result = $mysqli->query("Select * From $table2 where ID like '1' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Cmimi']}</h9>";
-                    
-
-                    }             
-                    ?> 
-                </p>
-            </div>
-        </div>
-        <div class="LojaU7">
-            <div class="Foto7">
-                <?php
-                   $result = $mysqli->query("Select * From $table where Name like '6 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>               
-            </div>
-            <div class="Text7">
-                <h1>
-                    <a href="#">GTA V</a>
-                </h1>
-                <p>
-                       <?php
-                   $result = $mysqli->query("Select * From $table2 where ID like '2' ");
-                    while ($data = $result->fetch_assoc()){
-                     echo "<h9>{$data['Cmimi']}</h9>";
-                    
-
-                    }             
-                    ?>
-                </p>
-            </div>
-        </div>
-        <div class="LojaU8">
-            <div class="Foto8">
-                <?php
-                   $result = $mysqli->query("Select * From $table where Name like '6 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>               
-            </div>
-            <div class="Text8">
-                <h1>
-                    <a href="#">Fallout 4</a>
-                </h1>
-                <p>
-                   &Ccedil;mimi 3&euro; -5%  
-                </p>
-            </div>
-        </div>
-    </div>
-       
-        <div class="KategoriKutit">
-            <div class="Kategoria1">
-                <h1>
-                    <a href="#">Aksion</a>
-                </h1>
-            </div>
-            <div class="Kategoria2">
-                <h1>
-                   <a href="#">Sport</a>
-                </h1>
-            </div>
-            <div class="Kategoria3">
-                <h1>
-                   <a href="#">RPG</a>
-                </h1>
-            </div>
-            <div class="Kategoria4">
-                <h1>
-                   <a href="#">Sandbox</a>
-                </h1>
-            </div>
-        </div>
-        <div class="TekstPromovues3">
-            Eksploroni librarin ton!
-        </div>
-            <div class="BorderOut">
-        <div class="LojaUU1">
-            <div class="Foto1">
-                <?php
-                   $result = $mysqli->query("Select * From $table where Name like '9 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                  
-            </div>
-            <div class="Text1U">
-                <h1>
-                    <a href="#">Black Ops:Cold War</a>
-                </h1>
-                <p>
-                    &Ccedil;mimi 45&euro; -12% 
-                </p>
-            </div>
-        </div>
-        <div class="LojaUU2">
-            <div class="Foto2">
-                <?php
-                   $result = $mysqli->query("Select * From $table where Name like '9 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                
-            </div>
-            <div class="Text2U">
-                <h1>
-                    <a href="#"> Gears of War 2</a>                   
-                </h1>
-                <p>
-                    &Ccedil;mimi FREE  
-                </p>
-            </div>
-        </div>
-        <div class="LojaUU3">
-            <div class="Foto3">
-                 <?php
-                   $result = $mysqli->query("Select * From $table where Name like '9 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                
-            </div>
-            <div class="Text3U">
-                <h1>
-                    <a href="#">FIFA 21</a>
-                </h1>
-                <p>
-                    &Ccedil;mimi 52&euro; -14% 
-                </p>
-            </div>
-        </div>
-        <div class="LojaUU4">
-            <div class="Foto4">
-                 <?php
-                   $result = $mysqli->query("Select * From $table where Name like '9 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                
-            </div>
-            <div class="Text4U">
-                <h1>
-                    <a href="#">Borderlands 3</a>
-                </h1>
-                <p>
-                    &Ccedil;mimi 31&euro; -16% 
-                </p>
-            </div>
-        </div>
-        <div class="LojaUU5">
-            <div class="Foto5">
-                 <?php
-                   $result = $mysqli->query("Select * From $table where Name like '9 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                
-            </div>
-            <div class="Text5U">
-                <h1>
-                    <a href="#">CyberPunk 2077</a>
-                </h1>
-                <p>
-                    &Ccedil;mimi 41&euro; -19% 
-                </p>
-            </div>
-        </div>
-        <div class="LojaUU6">
-            <div class="Foto6">
-                 <?php
-                   $result = $mysqli->query("Select * From $table where Name like '9 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                
-            </div>
-            <div class="Text6U">
-                <h1>
-                    <a href="#">Red Dead Redememption 2</a>
-                </h1>
-                <p>
-                    &Ccedil;mimi 38&euro; -32% 
-                </p>
-            </div>
-        </div>
-        <div class="LojaUU7">
-            <div class="Foto7">
-                 <?php
-                   $result = $mysqli->query("Select * From $table where Name like '9 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                
-            </div>
-            <div class="Text7U">
-                <h1>
-                    <a href="#">Naruto UNS 4</a>
-                </h1>
-                <p>
-                    &Ccedil;mimi 13&euro; -72% 
-                </p>
-            </div>
-        </div>
-        <div class="LojaUU8">
-            <div class="Foto8">
-                 <?php
-                   $result = $mysqli->query("Select * From $table where Name like '9 image' ");
-                    while ($data = $result->fetch_assoc()){
-                     //echo "<h2>{$data['Name']}</h2>";
-                     echo "<img src='{$data['Location']}'>";
-
-                    }             
-                    ?>                 
-            </div>
-            <div class="Text8U">
-                <h1>
-                    <a href="#">Hitman 3</a>                    
-                </h1>
-                <p>
-                    &Ccedil;mimi 12&euro; -90% 
-                </p>
-            </div>
-        </div>
-    </div>
-    <footer class="footer">
+     <footer class="footer">
      <div class="container">
         <div class="row">
             <div class="footer-col">

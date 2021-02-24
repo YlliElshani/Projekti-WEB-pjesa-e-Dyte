@@ -3,6 +3,9 @@
 
 session_start();
 
+$_SESSION['Name'] = "Loged In";
+echo $_SESSION['Name'];
+
 
 
 
@@ -37,7 +40,7 @@ if(isset($_POST['submit'])){
 
         if($count > 0){
             $_SESSION['Username'] = $uname;
-            header("location:HomePage Main.html");
+            header("location:../HomePage/index.php");
         }else{
             header("location:error.php");
         }

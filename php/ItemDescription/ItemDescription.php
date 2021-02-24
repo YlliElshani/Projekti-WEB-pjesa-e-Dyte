@@ -1,12 +1,8 @@
 <?php
 session_start();
 
+echo $_SESSION['Name'];
 
-if ($_SESSION['name'] == '')
-{
-    echo 'the session is empty';
-}
-session_destroy();
 
 
 ?>
@@ -19,33 +15,38 @@ session_destroy();
 <html>
 <head>
   <title>Item Description</title>
-  <link rel="stylesheet" type="text/css" href="Style.css">
-</head>
-<body>
-  <div class="HeaderMain">
-         <div class="HeaderMainTex">
-            <h3>
-                Epic Games
-            </h3>
-        </div>
-            <div id="navbar">
-                <ul>
-                    <li class="lista-navbar"><a href="####" class="linkP">Home</a></li>
-                </ul>
-                <ul>
-                    <li class="lista-navbar"><a href="####" class="linkP" >About Us</a></li>
-                </ul>
-                <ul>
-                    <li class="lista-navbar"><a href="####"class="linkP" >Register</a></li>
-                </ul>
-        </div>
-    </div>
-  <div class="container2">
- 
+  <link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\WEBProjektiReDesignMAIN\CSS files\About Us Style.css">
+  <link rel="stylesheet" type="text/css" href="Item Description Style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 
-  
-  <div class="Fotoja">
-    <?php
+</head>
+
+
+
+
+<body>
+<div class="nav">
+        <div class="logo">
+            Epic Games
+        </div>
+            <ul class="links">
+                <li>
+                    <a href="../LoginForma/index.php">Log in</a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+    </div>
+      <div class="outerBox">
+          <div class="ImgOut">
+           <?php
 
 $dbServername = "localhost";
 $dbUsername = "root";
@@ -56,9 +57,8 @@ $conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
 $mysqli = new mysqli ('localhost','root','','databaza');
 $table = 'fotot';
 
-$result = $mysqli->query("Select * From $table where Name like '7 image' ");
+$result = $mysqli->query("Select * From $table where Name like '9 image' ");
 while ($data = $result->fetch_assoc()){
-  echo "<h2>{$data['Name']}</h2>";
   echo "<img src='{$data['Location']}'>";
 
 
@@ -66,93 +66,97 @@ while ($data = $result->fetch_assoc()){
 
 
 ?>
-  
-    <img data-image="red" class="active" src="" >
-  </div>
- 
- <link rel="stylesheet" type="text/css" href="Item Description Style.css">
-  <!-- Right Column -->
-  <div class="right-column">
-  <div class="OuterBorder">
-    
-  </div>
-    <!-- Product Description -->
-    <div class="product-description">
-      <h3> CD </h3>
-      <h1>Call of Duty</h1>
-      <p>One of the most realistic war games there is. With a vareity of wepons and maps. Play gagainst others online</p>
-    </div>
- 
-    <!-- Product Configuration -->
-    <div class="product-configuration">
- 
-     <span>Type</span>
- 
-        <div class="cable-choose">
-          <button>Blac Ops 2</button>
-          <button>Modern Warfare</button>
-          <button>Black Obs 3</button>
-        </div>
- 
-      <!-- Cable Configuration -->
-      <div class="cable-config">
-        <span>Device configuration</span>
- 
-        <div class="cable-choose">
-          <button>Play Station</button>
-          <button>Xbox</button>
-          <button>PC</button>
-        </div>
- 
-         <p > A first-person shooter video game based on id Tech 3, and was released on October 29, 2003. The game was developed by Infinity Ward and published by Activision.</p>
-      </div>
-    </div>
- 
-    <!-- Product Pricing -->
-    <form class="product-price" method="POST" >
-      <span>50$</span>
-      <input type="submit"  id="button" class="cart-btn" name="submit" value="Buy" onclick="validate();">
+          </div>
+          <div class="prodDesc">
+              <h2>
+                Titulli Lojes
+              </h2>
+              <p>
+                Pershkrim i shkurter i lojes,Cras mattis viverra neque ornare malesuada. Proin imperdiet pellentesque nulla et facilisis. Fusce lobortis sem quam, sed iaculis est porttitor non. Pellentesque massa orci.
+              </p>
+              <div class="priceStyle">
+                <p>
+                  &Ccedil;mimi: 32&euro;
+                </p>
+              </div>
+              <div class="formPageses">
+                <h3>
+                  Zgjidh menyren e pageses dhe vazhdo
+                </h3>
+                <form>
+                  <select>
+                    <option>
+                      Credit Card
+                    </option>
+                    <option>
+                      Bitcoin
+                    </option>
+                    <option>
+                      Debit Card
+                    </option>
+                  </select>
+                  <br>
+                  <br>
+                   <?php 
 
-    </form>
-  </div>
-</div>
+if ($_SESSION['Name'] == '')
+{
+    echo 'You must be loged in';
+}
+ else{
 
- <footer class="footer">
-     <div class="container">
-      <div class="row">
-        <div class="footer-col">
-          <h4>Sites</h4>
-          <ul>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">Home Page</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Sign Up</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Payment Methods</h4>
-          <ul>
-            <li><a href="#">Credit Card</a></li>
-            <li><a href="#">Cash</a></li>
-            <li><a href="#">Bitcoin</a></li>
-            <li><a href="#">PayPal</a></li>
-            <li><a href="#">MasterCard</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Contact Us</h4>
-          <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Email</a></li>
-            <li><a href="#">Fax</a></li>
-            <li><a href="#">Website</a></li>
-          </ul>
-        </div>
-        
+      
+     echo "<input type='submit'  id='button' class='cart-btn' name='submit' value='Buy' onclick='validate();'>";
+     }
+      ?>
+                  <h3>
+                    Duke vazhduar ju pajtoheni me Termat dhe Kushtet tona
+                  </h3>
+                </form>
+              </div>
+          </div>
       </div>
-     </div>
-  </footer>
+       <footer class="footer">
+           <div class="container">
+            <div class="row">
+              <div class="footer-col">
+                <h4>Sites</h4>
+                <ul>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">Home Page</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Payment Methods</h4>
+                <ul>
+                  <li><a href="#">Credit Card</a></li>
+                  <li><a href="#">Cash</a></li>
+                  <li><a href="#">Bitcoin</a></li>
+                  <li><a href="#">PayPal</a></li>
+                  <li><a href="#">MasterCard</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Email</a></li>
+                  <li><a href="#">Fax</a></li>
+                  <li><a href="#">Website</a></li>
+                </ul>
+              </div>
+              
+            </div>
+           </div>
+        </footer>
 
 </body>
 </html>
 
+ <script>
+function validate() {
+         window.location.href="index.php";
+       }
+     </script>
