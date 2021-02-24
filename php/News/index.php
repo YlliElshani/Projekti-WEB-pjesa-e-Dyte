@@ -37,8 +37,11 @@
 				</h2>
 				<?php
 
+				
+include 'includes/databaza.inc.php';
 
 
+/*
 
 $dbServername = "localhost";
 $dbUsername = "root";
@@ -49,7 +52,7 @@ $conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
 $mysqli = new mysqli ('localhost','root','','databaza');
 $table = 'lajmet1';
 
-
+*/
 
 $result = $mysqli->query("Select * From $table where ID = '1' ");
 while ($data = $result->fetch_assoc()){
